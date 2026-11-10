@@ -1,0 +1,1830 @@
+{
+  "proof_provenance_commit": "75737122fb44f5f53981b502f05988165f12cac7",
+  "verification_completed_utc": "2026-11-08T10:09:28.495530+00:00",
+  "source_and_configuration_files": [
+    {
+      "path": "Erdos345/Statement.lean",
+      "bytes": 4050,
+      "sha256": "83e256a3774646b313589eba51ab51d809caf56878a45eab612658e6dea17169"
+    },
+    {
+      "path": "Erdos345/Representations.lean",
+      "bytes": 2641,
+      "sha256": "ebbf74335b1e296f8d4ed795d7e6465f8497478cf830bc748af622a2b4285555"
+    },
+    {
+      "path": "Erdos345/FiniteObstruction.lean",
+      "bytes": 4339,
+      "sha256": "07255a5b17743866ce3c4835583a82a01f1f630255468b3a250a484e8a8e6012"
+    },
+    {
+      "path": "Erdos345/FiniteLowerBound.lean",
+      "bytes": 2204,
+      "sha256": "88c1b56365595a61d69aa589133e2ba06ee128466023561d56be716f966f022e"
+    },
+    {
+      "path": "Erdos345/NewtonCoefficients.lean",
+      "bytes": 3716,
+      "sha256": "098352715e24e923699c044b17bd1d560d7e3141e315be4c26516d68d04e3f68"
+    },
+    {
+      "path": "Erdos345/ReductionModuli.lean",
+      "bytes": 2589,
+      "sha256": "ffd709e2fce0490d7998ada41786d00e735c6a59166a8937ea24c9bde0695b1b"
+    },
+    {
+      "path": "Erdos345/FiniteDifferences.lean",
+      "bytes": 5577,
+      "sha256": "e7e301976c483926ec0f3672c7f2f3e20e1c86b060b4ce64e4a87ac8a8c70845"
+    },
+    {
+      "path": "Erdos345/SimultaneousBounds.lean",
+      "bytes": 2491,
+      "sha256": "c77604cf1e8482329469d6a55b811c1898dfd24b2111975cc2ddbbbe1e254650"
+    },
+    {
+      "path": "Erdos345/ShiftedAverages.lean",
+      "bytes": 4736,
+      "sha256": "d6476ccc8fb91f89a494fab96db3271ee9240a9efdc8b80450da9f315582aa23"
+    },
+    {
+      "path": "Erdos345/DivisorMean.lean",
+      "bytes": 1936,
+      "sha256": "118e871fcb779158845262b60d52df9835358e0ebbd3a7d3f32fabfa10415ee0"
+    },
+    {
+      "path": "Erdos345/DyadicPrefix.lean",
+      "bytes": 1890,
+      "sha256": "ed0385dc5c1198ac61232945e2c02ce28b0a122aa120126412771ef9dc756509"
+    },
+    {
+      "path": "Erdos345/DivisorWeight.lean",
+      "bytes": 1452,
+      "sha256": "094fe2ddf95ff258d8b9ff3619e4809907dae55e68eab4fec962f9a14d45fc52"
+    },
+    {
+      "path": "Erdos345/GoodDegreeSelection.lean",
+      "bytes": 5654,
+      "sha256": "faa0b139c0ff566a37c48b19d8fa6b509fd63694123d5dbd4a93258589c0020b"
+    },
+    {
+      "path": "Erdos345/TailCompletion.lean",
+      "bytes": 6171,
+      "sha256": "380234a01d33efd55b01a4e13f10a97a604d430f2a3b4ddf007db2a395157868"
+    },
+    {
+      "path": "Erdos345/IntegerValuedPolynomial.lean",
+      "bytes": 10255,
+      "sha256": "acc6addcdb0713ede9c5d7ae8dcebf5953fec033c709db117fbaaf85788d8b77"
+    },
+    {
+      "path": "Erdos345/PolynomialReduction.lean",
+      "bytes": 8036,
+      "sha256": "434c575925eed2db3d682a076515321e6c33b874154e8add57d46de5703e1949"
+    },
+    {
+      "path": "Erdos345/ScalingDifference.lean",
+      "bytes": 4310,
+      "sha256": "f450a92199faae49845807ef80acc537a5d242ee1599f68212ec5077364f736d"
+    },
+    {
+      "path": "Erdos345/FixedDifferenceDivisors.lean",
+      "bytes": 5216,
+      "sha256": "389f9726666718b25dda080759c15d0cd288bd824190fa5bfed57966c25ffdfb"
+    },
+    {
+      "path": "Erdos345/FixedDifferencePrimes.lean",
+      "bytes": 2824,
+      "sha256": "f9805c7f4e0a43e5e0bf8666ef4f9c753f23aa46a8cb039a80b31539d187a196"
+    },
+    {
+      "path": "Erdos345/FixedDifferenceValuations.lean",
+      "bytes": 4519,
+      "sha256": "dd89e298c6907c448e9e9d22a31e39f2e6b1ab000155b8b65eaf888d7cfa462b"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeBound.lean",
+      "bytes": 3084,
+      "sha256": "8dcd3781a371ea669f40fb610a856268a0fa110998465d0dbf792bf9d2a609a3"
+    },
+    {
+      "path": "Erdos345/ReductionEnvelope.lean",
+      "bytes": 4258,
+      "sha256": "90a71423ce4f21dc337bb069cfa6bc7115882ba09affa585ef2c6c24998415b5"
+    },
+    {
+      "path": "Erdos345/GoodReductionBound.lean",
+      "bytes": 1450,
+      "sha256": "91d17fdca122d93cd691efb5b26b529e4feb7fa68bff9510a518ea0aadbea007"
+    },
+    {
+      "path": "Erdos345/Prouhet.lean",
+      "bytes": 10232,
+      "sha256": "31015292e603c5ee875da7f61096b5cac66576730a9f577acb34c3f1a7f06b87"
+    },
+    {
+      "path": "Erdos345/RadixCompleteness.lean",
+      "bytes": 9494,
+      "sha256": "79ff05e6c29b6190af263271596c53755ace43216ef8990171759ec4f36f7203"
+    },
+    {
+      "path": "Erdos345/CenterEnergy.lean",
+      "bytes": 6552,
+      "sha256": "1b49f1ef5a17ed457162847d6473a6310ea457c438575efd32a695ce6d4e96b4"
+    },
+    {
+      "path": "Erdos345/MinimalReduction.lean",
+      "bytes": 4233,
+      "sha256": "c96cfe716338ebf862a148176774ed7795ae0c491385b832a206dc91b58153f1"
+    },
+    {
+      "path": "Erdos345/MonotoneLayers.lean",
+      "bytes": 5459,
+      "sha256": "405eec21ef175de0c90f15d042281ac94e9ff791d7144349a7c3031734787c16"
+    },
+    {
+      "path": "Erdos345/FlatPolynomial.lean",
+      "bytes": 5374,
+      "sha256": "f5375d8d35ad59c401baef104dcc0f81202b7ac3f8afb940917f8d0bcb599cb4"
+    },
+    {
+      "path": "Erdos345/ShiftAction.lean",
+      "bytes": 5963,
+      "sha256": "d6fcd1350d1c16b4c11d5d5d286c83e5bae5633a4fa076f59dda9a35c1ccc2c0"
+    },
+    {
+      "path": "Erdos345/ConvolutionEnergy.lean",
+      "bytes": 5818,
+      "sha256": "1e95447020441f744cc08ab8fc387c6b29acebb7ba3fdd9a50d6a2e81fe7cd34"
+    },
+    {
+      "path": "Erdos345/ZeroRuns.lean",
+      "bytes": 3758,
+      "sha256": "16c4c45cac815e657178cacd030920d37b035f9f98098c1797285d71b95ee2b9"
+    },
+    {
+      "path": "Erdos345/RecurrenceExtension.lean",
+      "bytes": 6083,
+      "sha256": "5fb66069995548f6c454208a7170c8ae85ca0aa1cea1c117f834893f45f44b5e"
+    },
+    {
+      "path": "Erdos345/RoundingEnergy.lean",
+      "bytes": 1926,
+      "sha256": "743335365aa90ae0492b89d4d64982c23b459737413136efcbc755f638cdafcd"
+    },
+    {
+      "path": "Erdos345/RoundedRecurrence.lean",
+      "bytes": 3768,
+      "sha256": "090b955839084a5a7c79549176c14aed1edfa309eff96ae4df0bfa652d989cfa"
+    },
+    {
+      "path": "Erdos345/FlatMoments.lean",
+      "bytes": 4286,
+      "sha256": "0e10c4076e35d82d51d54e726390eef4072c2e1bfbf0de45176f446a7058aa3a"
+    },
+    {
+      "path": "Erdos345/CharacteristicObstruction.lean",
+      "bytes": 2053,
+      "sha256": "190932a5de69fb368066a81e3d82f81f57092c09d6bf508f69ed86ba027c02fa"
+    },
+    {
+      "path": "Erdos345/RecurrenceCongruence.lean",
+      "bytes": 4301,
+      "sha256": "70afe0a967592205e288352c7c6dabf9305c9aa3b5d910f3e5d7fde09028a37f"
+    },
+    {
+      "path": "Erdos345/DilationMatrix.lean",
+      "bytes": 4142,
+      "sha256": "e0cbc8fdfea3747b351e53cf0f3693d771e499fbc384bf825142c10d9112062b"
+    },
+    {
+      "path": "Erdos345/UnitFactorCancellation.lean",
+      "bytes": 3265,
+      "sha256": "33573276aca3ce96afa340ca0760e5aab0615cc8d696ec4f35ddeee0bf888b7c"
+    },
+    {
+      "path": "Erdos345/CyclotomicUnitFactors.lean",
+      "bytes": 2339,
+      "sha256": "c459e5202d617e43995f1c2f1f1ec8f21906109fd7ea724069992c6edfb8dc4e"
+    },
+    {
+      "path": "Erdos345/ValuationWindows.lean",
+      "bytes": 6015,
+      "sha256": "701d5dfef24f8a339e39dfccb674134b34e562acc83cf151fa47b008f0e0f09e"
+    },
+    {
+      "path": "Erdos345/CyclotomicDilation.lean",
+      "bytes": 4518,
+      "sha256": "98b57a0f4200b8591cff92dddec41af7ecc5f5f936b853d99e2a3020379b9cb5"
+    },
+    {
+      "path": "Erdos345/ExponentialSequences.lean",
+      "bytes": 3797,
+      "sha256": "b8fb7bfd2203ddfbef3f9d0eb196fa124812ac2936a7fea0be19c708b77ccfd7"
+    },
+    {
+      "path": "Erdos345/ExponentialIndependence.lean",
+      "bytes": 2506,
+      "sha256": "9763e18d192f69e5f0638ca7d5161a552d1de075d67a084931167ff7d18b1ada"
+    },
+    {
+      "path": "Erdos345/RecurrenceSpan.lean",
+      "bytes": 4710,
+      "sha256": "0369fcde3fa4a9dd49a06e420a20c1eef4f1d37e0f4daceeb906585c9f360573"
+    },
+    {
+      "path": "Erdos345/CyclotomicExpansion.lean",
+      "bytes": 2953,
+      "sha256": "15077f56549d2133efaa3276d8cb9897b39855294fe627aa52b7214257e3edba"
+    },
+    {
+      "path": "Erdos345/DilationAction.lean",
+      "bytes": 5048,
+      "sha256": "86bd7b60ae9e8c46182dc73177b9cde9f87a380aea224bb708cd5a338904dc9d"
+    },
+    {
+      "path": "Erdos345/DilationAnnihilator.lean",
+      "bytes": 4641,
+      "sha256": "45936d4a8c9c0a953892164cd718d000998c2c053186c8abf52535131e828ea8"
+    },
+    {
+      "path": "Erdos345/DilationValuations.lean",
+      "bytes": 3954,
+      "sha256": "971dc326655b883a8ac38cdbefec6f63f286dc2215b46d3890da58b0546c6590"
+    },
+    {
+      "path": "Erdos345/TwoAdicDilation.lean",
+      "bytes": 3545,
+      "sha256": "110214bd6953a46eef8efb2429d89acc64c7cdc03b0cc95809b10135885d10a3"
+    },
+    {
+      "path": "Erdos345/OddDilationGenerator.lean",
+      "bytes": 4561,
+      "sha256": "ff76000407d4e394de71b7dfba668677b9bc9d456bdc1d900f26094605c67c45"
+    },
+    {
+      "path": "Erdos345/OddDilationValuations.lean",
+      "bytes": 3827,
+      "sha256": "4496c4ea649e9c7dd23447f557b97ab587b26cdcd8c3408f241bd308eb0a9a1d"
+    },
+    {
+      "path": "Erdos345/OddPrimeDilation.lean",
+      "bytes": 5533,
+      "sha256": "36847221d1b6d0a6ae060e00097b6e601cdf7b0ed948aa34f153fc9cdcf90b18"
+    },
+    {
+      "path": "Erdos345/LocalScaling.lean",
+      "bytes": 2318,
+      "sha256": "ba95b64b8dc03497b2368b74e5c6e52e8f560a6cc4989500b597bd91e3a5c8f7"
+    },
+    {
+      "path": "Erdos345/MinimalAnnihilator.lean",
+      "bytes": 3935,
+      "sha256": "de38d76e77b78137deaa1986d1f2a4b97dddec7c19bb3c27b70c8f00fbe16f5e"
+    },
+    {
+      "path": "Erdos345/MinimalAnnihilatorBaseChange.lean",
+      "bytes": 4973,
+      "sha256": "61c7634c9acb2444754a6eda578d90b6539868f7f8d9d78537aeffc05e0edb59"
+    },
+    {
+      "path": "Erdos345/CyclotomicMinimal.lean",
+      "bytes": 4263,
+      "sha256": "02b577dfe20acfa89c09f1bdb3d7382c312e5bf13fc854487bcb35eec1af25be"
+    },
+    {
+      "path": "Erdos345/SaturatedExpansion.lean",
+      "bytes": 3673,
+      "sha256": "6a1e1305365003140db8376e3be3847eacf8753e8eb85afc32952fe38b8f8f1c"
+    },
+    {
+      "path": "Erdos345/FlatCyclotomic.lean",
+      "bytes": 3848,
+      "sha256": "bc9f3e4532f2c6a23fe79c81adf1ef4854f55485c005a2cadfda2fa9aa29050c"
+    },
+    {
+      "path": "Erdos345/ComponentIsolation.lean",
+      "bytes": 4485,
+      "sha256": "80a583bf455dbbf15843b55d0b9fdd3d36fabb9710018751651505cb38d987b2"
+    },
+    {
+      "path": "Erdos345/IntegralTopCoefficient.lean",
+      "bytes": 4178,
+      "sha256": "46bbd4c9b521af8657524bcc2646885026972dd1e2349ac3e6104eecd20824c5"
+    },
+    {
+      "path": "Erdos345/CofactorWitness.lean",
+      "bytes": 2935,
+      "sha256": "b839cf0f09d10a7ed3edd903d40abc6dfa839a428e0f98c3ca0c8e62bd7e2e8b"
+    },
+    {
+      "path": "Erdos345/CyclotomicResultant.lean",
+      "bytes": 1984,
+      "sha256": "bbe95d6216237d04c7b192f951a56ad220a6aa3107beb8f5ee0220f69968b2d1"
+    },
+    {
+      "path": "Erdos345/MinimalWitnessNorm.lean",
+      "bytes": 3542,
+      "sha256": "5dc7b39a9e4e0bdbc86886189b9c1727b602c5c529dc49023aef17780fed6332"
+    },
+    {
+      "path": "Erdos345/PrimePowerConjugateNorm.lean",
+      "bytes": 3284,
+      "sha256": "0cc78718eedc3c44768214305e1ef64d116be2c308ea4ba633fd8f5304277471"
+    },
+    {
+      "path": "Erdos345/PrimePowerGeneralNorm.lean",
+      "bytes": 1739,
+      "sha256": "eab27a5c90be6cfbd6f70f2aa38343f391cd4b25951293697336175ec38a8d14"
+    },
+    {
+      "path": "Erdos345/PrimePowerSlotBound.lean",
+      "bytes": 2481,
+      "sha256": "1b6c032d40cb002cd18796488d9a4c061281889fbf6610ead75a1ac64a2de9d1"
+    },
+    {
+      "path": "Erdos345/RegularizedCyclotomic.lean",
+      "bytes": 5517,
+      "sha256": "bc1cd5efde1b07a322b8df19214f7af25f0a353b0411598af32a72fbc3781bf9"
+    },
+    {
+      "path": "Erdos345/RegularizedComplement.lean",
+      "bytes": 2851,
+      "sha256": "29137afbb53e076a8eeafe8723f5849a762418b58caea4639497d3501666dd10"
+    },
+    {
+      "path": "Erdos345/RegularizedPowerProduct.lean",
+      "bytes": 3975,
+      "sha256": "a86de7deea35d8d279bdf5726d36c9ef76c2ff413d55331c32326f6a503c6e65"
+    },
+    {
+      "path": "Erdos345/FlatDenominatorNorm.lean",
+      "bytes": 4843,
+      "sha256": "f3dac6f915a0c29ae95a13c30dee2848c34eecb2bf997cdf61009dcddce39d64"
+    },
+    {
+      "path": "Erdos345/LogDenominatorBound.lean",
+      "bytes": 4072,
+      "sha256": "fb049eaa98f799156ac4c7d45cc44018ea3bfff8083763f00b880a506b70734f"
+    },
+    {
+      "path": "Erdos345/ProductPigeonhole.lean",
+      "bytes": 1218,
+      "sha256": "fca45a5e6f064158aa7c05b9fca848fb5ef2c04589531a3e296afba76a64f4f1"
+    },
+    {
+      "path": "Erdos345/TopDenominatorBudget.lean",
+      "bytes": 3649,
+      "sha256": "ff177682077b4e84fe7e919aad4bc3e90d5d8612d9c760127590af7c65b92d92"
+    },
+    {
+      "path": "Erdos345/PrimePowerCoefficientHeight.lean",
+      "bytes": 6195,
+      "sha256": "945ef6ee7f680d6e0f19254242fae00999467ab55db8ba99db62e73260eb9d0b"
+    },
+    {
+      "path": "Erdos345/RootOneCoefficientHeight.lean",
+      "bytes": 5089,
+      "sha256": "0b119d7614d50443f7cd68b2ed44beabda607d90f63498ceb341abbda647e1a2"
+    },
+    {
+      "path": "Erdos345/ScalarRecurrence.lean",
+      "bytes": 3170,
+      "sha256": "b2677105960b4468b49378557377c52957565d219b94fdf10f4bc47880fd1e77"
+    },
+    {
+      "path": "Erdos345/DiscreteGram.lean",
+      "bytes": 4458,
+      "sha256": "57372e8f2539ac0c17f2b376e8d2f5c305d06e4f088c8350d87222974304ebbf"
+    },
+    {
+      "path": "Erdos345/DiscreteOscillation.lean",
+      "bytes": 3303,
+      "sha256": "3870119c107e0f4206ed10a43b1daa03e47912c747bfdbe064ff3aadb5c6cd98"
+    },
+    {
+      "path": "Erdos345/RootSeparation.lean",
+      "bytes": 4086,
+      "sha256": "c9187dc80df623983dc884c865e42f7e671274e13e309c5cfdea761a869ecb1d"
+    },
+    {
+      "path": "Erdos345/ModulatedGram.lean",
+      "bytes": 3710,
+      "sha256": "009f488c227da4fc39a26a6ec3073b185c1e7efda52b8537089267c9f34ad4d4"
+    },
+    {
+      "path": "Erdos345/ChebyshevBasis.lean",
+      "bytes": 5137,
+      "sha256": "16e12acdfae2cb77d9cf24e6716968f93416ae360fe387c4588eb5d660a09223"
+    },
+    {
+      "path": "Erdos345/ChebyshevOrthogonality.lean",
+      "bytes": 4954,
+      "sha256": "efedaa253e98e062c7857518da5d3e73ee398c447ceb578a15dbe1a8338fe6f8"
+    },
+    {
+      "path": "Erdos345/WeightedIntervalLower.lean",
+      "bytes": 5664,
+      "sha256": "7cc8b825578108890684fa6a4febd33084c0e476619f5177e3b9da20b1160443"
+    },
+    {
+      "path": "Erdos345/UniformChebyshevEnergy.lean",
+      "bytes": 2451,
+      "sha256": "3ee9e1a99d70096e84a87f160fa8a92292f3109a1def1f019b2f004398c186e4"
+    },
+    {
+      "path": "Erdos345/RiemannSampling.lean",
+      "bytes": 3486,
+      "sha256": "fd2237d221048c60c3397041bd1672ca5d7d640752bbb5a495fe17f4424df79a"
+    },
+    {
+      "path": "Erdos345/ChebyshevSampling.lean",
+      "bytes": 5898,
+      "sha256": "6429d2210a4883ccbfb30953a662d65318b9036ae1e6f0501167b1082ecbae3a"
+    },
+    {
+      "path": "Erdos345/MixedGramEnergy.lean",
+      "bytes": 1889,
+      "sha256": "c262623e6606f62caba22c88134294254be85f4150aa56b849f17ff22d9095a7"
+    },
+    {
+      "path": "Erdos345/ChebyshevModulation.lean",
+      "bytes": 4035,
+      "sha256": "1abecdea18c65b6ca53e76fe0436959f4f8bbe7623c769e888c4659912a17709"
+    },
+    {
+      "path": "Erdos345/MixedChebyshevEnergy.lean",
+      "bytes": 5741,
+      "sha256": "16cc2d4708e039002b8862a792269c7d25202806762a15f70d573c2cd45a7a49"
+    },
+    {
+      "path": "Erdos345/CyclotomicChebyshevEnergy.lean",
+      "bytes": 3670,
+      "sha256": "cb8fb79d1e9bc5ec60e5c23c9e696366ed75ffa5f1872877c074aba1498ecf22"
+    },
+    {
+      "path": "Erdos345/FinitePadding.lean",
+      "bytes": 1552,
+      "sha256": "daf5fce93f4b9622989ac371830f0e6972c54f228394e1caccf3a0427ef4ef5b"
+    },
+    {
+      "path": "Erdos345/ScaledChebyshevBasis.lean",
+      "bytes": 3401,
+      "sha256": "2c4e37a944f1abad29116e4805dfda50dd7a738c6ea0d21a7e967d2f94184115"
+    },
+    {
+      "path": "Erdos345/PolynomialFrequencyEnergy.lean",
+      "bytes": 3413,
+      "sha256": "d015d7951241db80098f2c679519fa9c4f09fda10c729b9b0038e9c5b1c47287"
+    },
+    {
+      "path": "Erdos345/OrdinaryRecurrenceEnergy.lean",
+      "bytes": 3550,
+      "sha256": "52d7138c5d7a822b7cbc4df6f3a57d87d4d11b6785ff6ceaf01f794b286bb45c"
+    },
+    {
+      "path": "Erdos345/IntegerRecurrenceEnergy.lean",
+      "bytes": 6582,
+      "sha256": "83d37b6b986a46b0d183eeb23aa30c4f343332157ea69bfdd0cea89905703ad0"
+    },
+    {
+      "path": "Erdos345/RecurrenceTranslation.lean",
+      "bytes": 3001,
+      "sha256": "1464ab493a4999d20b2b6e07e22c3e5e08e90b8034436478c632287706359ef1"
+    },
+    {
+      "path": "Erdos345/EnergyLogBound.lean",
+      "bytes": 4681,
+      "sha256": "33db2546be8ebb24578e35224db1793b5b3b764aed775eb0f3b3e61c1b1236dd"
+    },
+    {
+      "path": "Erdos345/ExpansionComparison.lean",
+      "bytes": 4311,
+      "sha256": "2e86908f3e7d72ce0a46e35717ef49aae836523de39f3c140fe89a21683e2090"
+    },
+    {
+      "path": "Erdos345/MinimalComponentComparison.lean",
+      "bytes": 3283,
+      "sha256": "7b8647c114fc93f24b9b611715e83a6c0251f87a0557d9e51432087d478f44bb"
+    },
+    {
+      "path": "Erdos345/PolynomialPerturbation.lean",
+      "bytes": 3506,
+      "sha256": "c99419cfdd890351032b1c8b07172ab87e0e37938ac9a3b37817cb786cfcb242"
+    },
+    {
+      "path": "Erdos345/RationalErrorHeight.lean",
+      "bytes": 3877,
+      "sha256": "4028e0c7503f552d638830790d0461dad2194910368538a0b1b8dc9c2f00b06d"
+    },
+    {
+      "path": "Erdos345/RationalErrorEnergy.lean",
+      "bytes": 3965,
+      "sha256": "fd4d772201e60b57232ed72719a776a7dafd165325cef0397f76b5d6d8ad827f"
+    },
+    {
+      "path": "Erdos345/ScaledErrorEnergy.lean",
+      "bytes": 5418,
+      "sha256": "ed526900207fe01b1e58beadd659528a533a40183ed9b5f0a3d8129ebd0f0790"
+    },
+    {
+      "path": "Erdos345/FlatErrorRecurrence.lean",
+      "bytes": 4041,
+      "sha256": "3b317f47db45a48d9f010e1693b81077b7a43f6f243e344181c2fcc40ee6d555"
+    },
+    {
+      "path": "Erdos345/WindowErrorHeight.lean",
+      "bytes": 5140,
+      "sha256": "509c7e804b3045c9c30594845faafd7e371179d06b3137065ea36c70e490a532"
+    },
+    {
+      "path": "Erdos345/ModularAnnihilatorTransfer.lean",
+      "bytes": 3877,
+      "sha256": "0b6d9af113f5c4c1479f8e9fc3181d6af5fae45686a2874fa65e15914ca7e7fc"
+    },
+    {
+      "path": "Erdos345/PrimaryAnnihilator.lean",
+      "bytes": 3867,
+      "sha256": "4d962359001e71b94c89c84ef5e71afed969ff7697f0dfddc1c71bc4f824e1e6"
+    },
+    {
+      "path": "Erdos345/LargePrimeReduction.lean",
+      "bytes": 4032,
+      "sha256": "99324e902718f6d77b41143e996b064ac9853c05437ce5b7c105837ee5e23e40"
+    },
+    {
+      "path": "Erdos345/PrimaryExponentBound.lean",
+      "bytes": 4306,
+      "sha256": "a79391d276d555ad1f4627f9d46c98fe02b828c70bc6b657f8d259a13b8e2aa6"
+    },
+    {
+      "path": "Erdos345/FactorialCoverage.lean",
+      "bytes": 3711,
+      "sha256": "f81c277623be44a086c96fa4015e0bc66934061bbde15d05c0f812d464113050"
+    },
+    {
+      "path": "Erdos345/ConductorDivisibility.lean",
+      "bytes": 4206,
+      "sha256": "5f2d8c4623031bce79241600fbcfebef0b7e8cd9e20743740516c070da8ef0bd"
+    },
+    {
+      "path": "Erdos345/WindowHeightBudget.lean",
+      "bytes": 4602,
+      "sha256": "b5c5d270a62292c4b741a8674e71f143c198a403d71651165f608e7fbc0086f3"
+    },
+    {
+      "path": "Erdos345/WindowConductorReduction.lean",
+      "bytes": 2443,
+      "sha256": "75c333c2b69fcd748b614d150eb6b81e73c11167a36333a017349b1a51a5aa70"
+    },
+    {
+      "path": "Erdos345/RationalReductionPhase.lean",
+      "bytes": 3629,
+      "sha256": "9600f7bd95d71c34b2da8a5d3edad1ef3df24952865ca9d93bbed1b14af37d4c"
+    },
+    {
+      "path": "Erdos345/ReducedPhaseRecurrence.lean",
+      "bytes": 2742,
+      "sha256": "ad970aaf10c42e1f0236f1ad94869b0ca99531b4bfefe2d73e195caf2e9bbd4b"
+    },
+    {
+      "path": "Erdos345/WindowBudgetBounds.lean",
+      "bytes": 4019,
+      "sha256": "7237f1e83f5d3cd43d031a24e6277613927fced14a9664224a58a8eb9d3bb150"
+    },
+    {
+      "path": "Erdos345/QuantifiedRecurrenceWindow.lean",
+      "bytes": 2568,
+      "sha256": "7945f760027c51c97a9d5268e162392fae49d9bc1cffc4733d4251692a9fea56"
+    },
+    {
+      "path": "Erdos345/OneStepReduction.lean",
+      "bytes": 3933,
+      "sha256": "5f523e87bdf21beb98632c798aec9112982c1aaa4027814e7c5bd897cd5c7441"
+    },
+    {
+      "path": "Erdos345/SmallHeightTriviality.lean",
+      "bytes": 4566,
+      "sha256": "5189821bf77c5e0ae647b879c064e1ed65f4fc05209eb320e675ace8737dff29"
+    },
+    {
+      "path": "Erdos345/ReductionConstantBounds.lean",
+      "bytes": 1766,
+      "sha256": "32594c2c85b8840e28aa9474749a8fe83a4b734aabaaa1e521737a1e638bec9a"
+    },
+    {
+      "path": "Erdos345/FiniteCenterCriterion.lean",
+      "bytes": 4241,
+      "sha256": "e66aa3e47f36d807a244581782bdfef916dd614977bd3c15c29733306c7b6970"
+    },
+    {
+      "path": "Erdos345/GoodConductorDegree.lean",
+      "bytes": 3451,
+      "sha256": "dbb82295d331bf7b9cba649cef9efe4e952a8d9e54713766ab5352b0c4f0c147"
+    },
+    {
+      "path": "Erdos345/ExplicitCenterWindow.lean",
+      "bytes": 4681,
+      "sha256": "d47de6a65a290742d4eb733599becde7bf3edc5e164a3ce1347afac33b7a3744"
+    },
+    {
+      "path": "Erdos345/LogarithmicBudgetBounds.lean",
+      "bytes": 5004,
+      "sha256": "1fa7af05f95ee292e357db1319ff7d13680c1de322226667f7092d203fcc185a"
+    },
+    {
+      "path": "Erdos345/EnergyScaleBound.lean",
+      "bytes": 4617,
+      "sha256": "a8a14af449745a457cd64eeebcbeb79bb87d7425fc3edc6f0ef2fc45669e32e2"
+    },
+    {
+      "path": "Erdos345/WindowGrowth.lean",
+      "bytes": 3752,
+      "sha256": "324f5da1101f21e8321d12fee41b53191b8c23c21b1a34ec1b0af3526a561086"
+    },
+    {
+      "path": "Erdos345/PrefixGrowth.lean",
+      "bytes": 5170,
+      "sha256": "ba502ca66a76cb3695eb92f3e6f74fa89a9f7fe0fc125ce6498de74fc0eef0f2"
+    },
+    {
+      "path": "Erdos345/QuasipolynomialCenter.lean",
+      "bytes": 4098,
+      "sha256": "7b163c70a4901c5e0c317598f84a856cb996b15fd46d537b43057e046e61d42e"
+    },
+    {
+      "path": "Erdos345/RadialUnitCircle.lean",
+      "bytes": 3229,
+      "sha256": "e94d8e36d134b51be5dcd022cbe2d452aa197f8a03131be82ae8f1d7b510096f"
+    },
+    {
+      "path": "Erdos345/RadialLogSeries.lean",
+      "bytes": 2527,
+      "sha256": "74a364d13ec661533901553c3f660a8f3d3a639ad922cae682ca2fb7ce49f0b0"
+    },
+    {
+      "path": "Erdos345/CosineFlatSupNorm.lean",
+      "bytes": 4801,
+      "sha256": "2fb5655501056dd7992dd9e2530525a4e7d5255b8d5bd5f2c6d0c6e8a5b56dbb"
+    },
+    {
+      "path": "Erdos345/PolynomialCoefficientBound.lean",
+      "bytes": 2453,
+      "sha256": "b0d3a3e93a93e9a55b4c4d2e13f4bf3bc222ba680df0f90d8667b2aaf73a8668"
+    },
+    {
+      "path": "Erdos345/CosineFlatCoefficientNorm.lean",
+      "bytes": 3926,
+      "sha256": "ae70aaf961df0d2b5af09e722b6a631f42c986d89091da00425ca313a874949d"
+    },
+    {
+      "path": "Erdos345/CosineSourceInterface.lean",
+      "bytes": 2882,
+      "sha256": "8711bbbfbf79cf43b8b63542ce55d128ce0872618d8e2b13ab212396439222bf"
+    },
+    {
+      "path": "Erdos345/QuasipolynomialPrefixGrowth.lean",
+      "bytes": 3666,
+      "sha256": "a68313011164521311fd7db74410ca7928aa4a56c3927e61527a533e0aa3dfac"
+    },
+    {
+      "path": "Erdos345/DifferencePolynomial.lean",
+      "bytes": 2661,
+      "sha256": "6caf45f48bef042704ef4de65cf3a0363e4f505db3240c8b6394f301b13133d8"
+    },
+    {
+      "path": "Erdos345/PolynomialShiftAction.lean",
+      "bytes": 1844,
+      "sha256": "e60d924f5682b2361b8c3f2dfeb963218ee01e942bb62c012f12436bec14dc29"
+    },
+    {
+      "path": "Erdos345/PolynomialSampleEnergy.lean",
+      "bytes": 2955,
+      "sha256": "edf58436c148e13e19a1693df3ed1c7b1322e22b80b47d1bdddad2e448b063c0"
+    },
+    {
+      "path": "Erdos345/InverseErrorPolynomial.lean",
+      "bytes": 3201,
+      "sha256": "23edd1af3bdfbd88ce9bb09b1e5144d6b2d65de1e064e861cdb48844e6734101"
+    },
+    {
+      "path": "Erdos345/ConvolvedWindowEnergy.lean",
+      "bytes": 3571,
+      "sha256": "5773a870152ca595c9f703e09b318afb8aa93e2fa6912980136d4f0f2b1b976d"
+    },
+    {
+      "path": "Erdos345/FlatInverseEnergy.lean",
+      "bytes": 3023,
+      "sha256": "c0394f2703bf0a355f5758ef35dd5f9c25808393b00387384e9546683cc73474"
+    },
+    {
+      "path": "Erdos345/FlatInverseRadius.lean",
+      "bytes": 3262,
+      "sha256": "274d006b468898471429ff66adca9df0b3f16ff30234df09214c7253d111a0e3"
+    },
+    {
+      "path": "Erdos345/SineEnergyPerturbation.lean",
+      "bytes": 2278,
+      "sha256": "03ddf3354dc8ff597661b565e6d0ab8178eb5dc951e82985c032152fcea0996c"
+    },
+    {
+      "path": "Erdos345/RationalCenters.lean",
+      "bytes": 2421,
+      "sha256": "fd2f66a8360f510293375838975ca43c365d703173444e1148ff5a94f74719c7"
+    },
+    {
+      "path": "Erdos345/NonintegerCenterExclusion.lean",
+      "bytes": 3740,
+      "sha256": "cbbc830638af13f34d5f7b247ebfc89627eecdba4458f99dd9b9b98be9a44b69"
+    },
+    {
+      "path": "Erdos345/GridArcCount.lean",
+      "bytes": 4226,
+      "sha256": "1dfdf9c02d033dc6761f98bdc1c664ce0c9f3ba43a08eef8f6d4d7ad400f18b8"
+    },
+    {
+      "path": "Erdos345/LowEnergyGrid.lean",
+      "bytes": 2201,
+      "sha256": "a5b42cd525b25efb5e972d71ca6b702db7fa64be353cac72a73c5d8c606559ce"
+    },
+    {
+      "path": "Erdos345/CosineCollision.lean",
+      "bytes": 3410,
+      "sha256": "14464c49660de577e4f3c1465786a45cffa8820305b8a41864e5ac978a4b6fec"
+    },
+    {
+      "path": "Erdos345/DeletedPrefixEnergy.lean",
+      "bytes": 1673,
+      "sha256": "1a538e60c5b8c626cb8c6281eb8ee2ef02fa73b3d6b1f1a62b13833907a3d107"
+    },
+    {
+      "path": "Erdos345/CollisionSplit.lean",
+      "bytes": 2290,
+      "sha256": "10b074dc488a33602461e80f9002b609659f526fe52432eed8afdfecd9fe6927"
+    },
+    {
+      "path": "Erdos345/IntegerArcCount.lean",
+      "bytes": 2406,
+      "sha256": "12483d808311ed98103dc229a5a4c3c658e0c8d4c801f6ce8dc860e86f47da67"
+    },
+    {
+      "path": "Erdos345/GridCollisionBound.lean",
+      "bytes": 4062,
+      "sha256": "e2a17076befa34318a38a3b4ebf7f01ba3a0bca5c0ad85056946068f9db0cea3"
+    },
+    {
+      "path": "Erdos345/SmallNumeratorGrid.lean",
+      "bytes": 3714,
+      "sha256": "db3a571abe9e41f62727e7eae795adae8493e9f340cd42d12d176858dd543356"
+    },
+    {
+      "path": "Erdos345/IntegerGridCollision.lean",
+      "bytes": 3070,
+      "sha256": "35b4c2f32344fa12dae2462c65d209fab20d06df4f0585321a5a4d0d869f84c9"
+    },
+    {
+      "path": "Erdos345/CollisionLogBudget.lean",
+      "bytes": 2361,
+      "sha256": "d1425b9fc0bd21ec89e9606ab6b7d922dadf75341a9dee6b3f7e7c1487ff7adb"
+    },
+    {
+      "path": "Erdos345/NaturalWindowCount.lean",
+      "bytes": 1119,
+      "sha256": "47a48463ff9d309eb7379c380dcca1e9203a24541b806a8726b162ebc7984da5"
+    },
+    {
+      "path": "Erdos345/PhaseWindowEnergy.lean",
+      "bytes": 2740,
+      "sha256": "7034d8b74564d38c2eb8cf1b8807d5f40d11e857da4da0cee7741a363828d0d7"
+    },
+    {
+      "path": "Erdos345/StackedWindowEnergy.lean",
+      "bytes": 2423,
+      "sha256": "c58cf0271c41ba431c77ac6a4cbac0c51a0a2db2dda10d9167fdbf6450f9c279"
+    },
+    {
+      "path": "Erdos345/PowerWindowGeometry.lean",
+      "bytes": 3893,
+      "sha256": "d807631bd6e30efe69ef46ade81a15414ba0594fe06ca8c3e0b99371b544f1d7"
+    },
+    {
+      "path": "Erdos345/PowerWindowPopulation.lean",
+      "bytes": 4281,
+      "sha256": "e696f60006ea25bbfd7c548b902bf92faeb8d2bf36149b20fb0521c4628d77d3"
+    },
+    {
+      "path": "Erdos345/PowerPhaseScale.lean",
+      "bytes": 2905,
+      "sha256": "0957eef0a4b9f5d1f4b8284f21221598b6877ff25e82c4e95bf103904a883c67"
+    },
+    {
+      "path": "Erdos345/PowerWindowHarmonic.lean",
+      "bytes": 1301,
+      "sha256": "0c6925ac258ed4bf7a64d9291c2b83510be137a3908fbff03d10af3d136fd1d8"
+    },
+    {
+      "path": "Erdos345/PowerScaleBounds.lean",
+      "bytes": 1370,
+      "sha256": "170e6f34d1a85420d183621475fc97777d886f1f096fc2b345e5dfb3c624d944"
+    },
+    {
+      "path": "Erdos345/MiddlePowerWindows.lean",
+      "bytes": 2819,
+      "sha256": "a6849a05ec84a2ec0bf33142b456d7db517a36577d532e5f39852b8f0c7a2670"
+    },
+    {
+      "path": "Erdos345/FirstPowerWindow.lean",
+      "bytes": 4840,
+      "sha256": "d6d0d8d6802cf719629bf9c361e4e9399b2dcec9bc1292eeb3e208d3e29daf73"
+    },
+    {
+      "path": "Erdos345/ReserveRootBound.lean",
+      "bytes": 1796,
+      "sha256": "2b1821f6c04bf59f991810f74e509ca5ebe4d9be8bd5d7edf476da652fae8b0c"
+    },
+    {
+      "path": "Erdos345/UnreservedPopulation.lean",
+      "bytes": 2840,
+      "sha256": "9c2948c5f0c5ae2aadf56a5f1b26240d5ae3a17983ea5252a484e31d1bdd8ba0"
+    },
+    {
+      "path": "Erdos345/SmallNumeratorEnergy.lean",
+      "bytes": 4172,
+      "sha256": "404d3d9448cd0e3200dca537afa5e963b2d475284945811a16a100c4ee7b6975"
+    },
+    {
+      "path": "Erdos345/SamplingPopulationEnergy.lean",
+      "bytes": 1963,
+      "sha256": "9826f1556dbcaee3e3e0522c6dcb504851873d08dd99bbe2e271a893843a38a1"
+    },
+    {
+      "path": "Erdos345/EmptyExceptionalGrid.lean",
+      "bytes": 5469,
+      "sha256": "b209652863c0bc3fb83e23d799c272cb653f829136f40ce1bf0279df36c10dde"
+    },
+    {
+      "path": "Erdos345/InverseRadiusBudget.lean",
+      "bytes": 1661,
+      "sha256": "6d0ced397ee953cf253d0cb3acdc47adc193b87337145917fa36b98e01248a02"
+    },
+    {
+      "path": "Erdos345/CoarseWindowBudget.lean",
+      "bytes": 2615,
+      "sha256": "7ff82143d7a3ff7f6e0542784096c7b85d1548de2214aef3a8ef73a19f9df91a"
+    },
+    {
+      "path": "Erdos345/UnreservedFrequencyBound.lean",
+      "bytes": 3126,
+      "sha256": "1d8324e8ea028042eed716718833e584db00007fbc36c44939c99a57aa5d13d3"
+    },
+    {
+      "path": "Erdos345/LogScaleGrowth.lean",
+      "bytes": 2586,
+      "sha256": "d631b795b96c441ba4005666954a1902dc13e3ae3cb9cfff4b853aa513d62e6b"
+    },
+    {
+      "path": "Erdos345/ExponentialDomination.lean",
+      "bytes": 2474,
+      "sha256": "e8610ee6864206713428c37c0f58433a04b6caed955a001b3b47e9617161fe61"
+    },
+    {
+      "path": "Erdos345/FinitePerturbationBudget.lean",
+      "bytes": 2425,
+      "sha256": "2d326c9f71fdb1acf7dcb5108c80ab2ed8b6a9c210fa071d2623a3d1c76129ab"
+    },
+    {
+      "path": "Erdos345/FourierParameters.lean",
+      "bytes": 2871,
+      "sha256": "46c5ad29babc7a1411fd082683cb19c3365267382fe139c922a589cf1a44fcdf"
+    },
+    {
+      "path": "Erdos345/FourierParameterGrowth.lean",
+      "bytes": 3948,
+      "sha256": "c219b37d70bbc7181df79fde24098a4e438a98c06141f7c6d9f927491570245f"
+    },
+    {
+      "path": "Erdos345/FourierPrefixBudget.lean",
+      "bytes": 5627,
+      "sha256": "c0fb5e1e1e330526efe485b80bdf32a2161e7c1a16775340f6c887035c6e0364"
+    },
+    {
+      "path": "Erdos345/SamplingRatio.lean",
+      "bytes": 3782,
+      "sha256": "efa492535c10a777f2eaf3aa2bfa6eec61f2a50a0de4626ea51bd8048add3953"
+    },
+    {
+      "path": "Erdos345/FourierParameterConditions.lean",
+      "bytes": 2180,
+      "sha256": "51cd83807154f182ac7efc60b3b6751822ec1b46300166c725e71e8abef11e8f"
+    },
+    {
+      "path": "Erdos345/FourierDecay.lean",
+      "bytes": 3279,
+      "sha256": "f27afe7dedf0df2a85140b4c2bc4e9fe241b5f56db7464a92dc20bbe00c99a29"
+    },
+    {
+      "path": "Erdos345/FourierDecayLimit.lean",
+      "bytes": 2112,
+      "sha256": "5e3abae2cc2bb381749123d307ec5d86f851d02bc0a06592055a33490e5c9f37"
+    },
+    {
+      "path": "Erdos345/UniformFourierEnergy.lean",
+      "bytes": 3476,
+      "sha256": "d7ab354d4b1a186f79fa25b615fedd43434d73d4b354f4c49e3e4ffcbf1d846e"
+    },
+    {
+      "path": "Erdos345/FiniteExpectation.lean",
+      "bytes": 3467,
+      "sha256": "5b0a4b3793b56ebd05f203d54c40bfdbab13039fd4a5b8f05c0c013ea409ecb1"
+    },
+    {
+      "path": "Erdos345/LabelSampling.lean",
+      "bytes": 4108,
+      "sha256": "ddc4cf7d0744129c902aec2c2d6256117fc5de23bd6c4cd4e5322657a1495ecd"
+    },
+    {
+      "path": "Erdos345/SampledCosineBound.lean",
+      "bytes": 4606,
+      "sha256": "e51d2a0ad13e29f68dbbba307591dc780ea45f3728087c1e26bc6c5b59538994"
+    },
+    {
+      "path": "Erdos345/CyclicParseval.lean",
+      "bytes": 2886,
+      "sha256": "fdc3c88ca1af30be89f7b5dd2ca02044343f7611f067874b5887b39c744d5898"
+    },
+    {
+      "path": "Erdos345/FiniteResidueDistribution.lean",
+      "bytes": 2672,
+      "sha256": "2f16080f37ef6ccee86f92214f0345100f0e55906d9339aba27e73685f92144f"
+    },
+    {
+      "path": "Erdos345/CyclicSupport.lean",
+      "bytes": 2808,
+      "sha256": "cd567bfe58a621f8032dd34efaa710128b6486d17fc93f0010564cf006fcdb70"
+    },
+    {
+      "path": "Erdos345/BernoulliFourier.lean",
+      "bytes": 2671,
+      "sha256": "3086595be52373fd2b45f8e35d1aa11de0bc1707047e16706182bd5a025c50cf"
+    },
+    {
+      "path": "Erdos345/CyclicFrequencyIndex.lean",
+      "bytes": 1135,
+      "sha256": "0434e99f4853c3e9fcd50fa63f16fd81a19957623c9d4a890b1760b67f59e311"
+    },
+    {
+      "path": "Erdos345/PowerSubsetSupport.lean",
+      "bytes": 3096,
+      "sha256": "2ebdd60dc514478068e5198c604e7771515b1007c7d1aaf7408a6bd2866bcf55"
+    },
+    {
+      "path": "Erdos345/FiniteEventBounds.lean",
+      "bytes": 2252,
+      "sha256": "717b073705b3bc0efc65fbbcc83d2bb92f9b049ebef9100d695da8bef042d9ad"
+    },
+    {
+      "path": "Erdos345/SampledSupportProbability.lean",
+      "bytes": 3790,
+      "sha256": "25b652a7e10f82468e4c4a3e6b8073492c79dc139001bee7f58e11b73509a707"
+    },
+    {
+      "path": "Erdos345/FiniteCoordinateMean.lean",
+      "bytes": 2575,
+      "sha256": "55f9d9ece725eb34051720a45c65076adee750fbbf103de9d3566fceb159346b"
+    },
+    {
+      "path": "Erdos345/LabelMoments.lean",
+      "bytes": 2123,
+      "sha256": "0e4588a708d4a7168b720eb1269261ddc94a74f1040bfdecec5a98039e5aed6c"
+    },
+    {
+      "path": "Erdos345/PowerSumIntegral.lean",
+      "bytes": 2941,
+      "sha256": "60972d8e917b776eaa7eb0132c0ac538a876896f65fef68f0b13d48ca32d2a7e"
+    },
+    {
+      "path": "Erdos345/LabelWeightVariance.lean",
+      "bytes": 3113,
+      "sha256": "224a0cc478af199e4abfa6a6f3cb4e71ed0b07f273e25575e2c2b7372de61469"
+    },
+    {
+      "path": "Erdos345/SampledSpanMoments.lean",
+      "bytes": 3012,
+      "sha256": "3bb5c6fdba4685c78228b95e067678e23746b159c4ee8678875715092f574dcf"
+    },
+    {
+      "path": "Erdos345/FiniteRowAverages.lean",
+      "bytes": 3300,
+      "sha256": "40fe5fa55240ed821b55cd44ca09c277bfcb8528e9adf39d2c28fe4ed5205ee3"
+    },
+    {
+      "path": "Erdos345/SampledSpanProbability.lean",
+      "bytes": 2494,
+      "sha256": "e756485bf5bfe5c2dec964c91a95a4bff81f480f9c6a2284db2cfe48eaefc3e5"
+    },
+    {
+      "path": "Erdos345/SpanProbabilityDecay.lean",
+      "bytes": 1573,
+      "sha256": "ccd216fbf9cf069d76ff21c9fd76e775887ddff645007ebe39ae5b79bf9eb934"
+    },
+    {
+      "path": "Erdos345/JointGroupSelection.lean",
+      "bytes": 5388,
+      "sha256": "242c6414e79afd147d7df1cd14ff1b300a0769859e6c6c0709ecd3c01e193879"
+    },
+    {
+      "path": "Erdos345/ReservedBases.lean",
+      "bytes": 3144,
+      "sha256": "50f6936cd8e43a532aa86a8cc08366bf049958014d1b884a0e9f9d7021763afa"
+    },
+    {
+      "path": "Erdos345/ReservedGroupSelection.lean",
+      "bytes": 2592,
+      "sha256": "21a1ac8aa8dc540592147f06cc92df7db791a46a2a521595c78007070587c939"
+    },
+    {
+      "path": "Erdos345/DisjointAllocation.lean",
+      "bytes": 2072,
+      "sha256": "d952dcb8cc297bf1f052b252d618bec3eb2b36eafcd66730f9de770e497b2616"
+    },
+    {
+      "path": "Erdos345/ReservedAllocation.lean",
+      "bytes": 1752,
+      "sha256": "acf72a71af1358108c9001590a79711196e295053ab0540e7aa9a78c8f6914be"
+    },
+    {
+      "path": "Erdos345/ResidueEndpointGrowth.lean",
+      "bytes": 2456,
+      "sha256": "6735e13d687d2a0d7697f82ad9844ce6d428077990133970e00a398b4ed47c1f"
+    },
+    {
+      "path": "Erdos345/FinitePowerSums.lean",
+      "bytes": 3748,
+      "sha256": "b774739efebdffc829857471b05683de84a43255d5012eb239c2c5a67ddcc5de"
+    },
+    {
+      "path": "Erdos345/AugmentedGroupBounds.lean",
+      "bytes": 3441,
+      "sha256": "878f24d6d28f362665c163ecf43904442cb8bc43eaa32b4f2e19dc5af5626cd8"
+    },
+    {
+      "path": "Erdos345/AuxiliaryPairs.lean",
+      "bytes": 3752,
+      "sha256": "ba4e2f85b46e4e154eb403cc028e72a07b0eb2e036d5d92c696ff0b771368c7e"
+    },
+    {
+      "path": "Erdos345/AugmentedGroupSelection.lean",
+      "bytes": 2894,
+      "sha256": "73ec08a53933396a6fbddfe71119ae67fdf04c10fb895d40e0e9ec9aeb6e9429"
+    },
+    {
+      "path": "Erdos345/GcdOneGroupSelection.lean",
+      "bytes": 3199,
+      "sha256": "494258f3ac3b5eecc48978f71eb8413f8737206cdec1372327cf8625209cd86e"
+    },
+    {
+      "path": "Erdos345/LevParameterBounds.lean",
+      "bytes": 1615,
+      "sha256": "2000b6cde3f008ff4b9c9f488650b7cc4f31d9192baad012819b1b554e61c359"
+    },
+    {
+      "path": "Erdos345/GroupRepresentation.lean",
+      "bytes": 1722,
+      "sha256": "e1dd19bf5d343f851ee546b2d167705cacee59dccd65c160f4099a80ff17be46"
+    },
+    {
+      "path": "Erdos345/IntervalReadyGroups.lean",
+      "bytes": 2987,
+      "sha256": "cb3e1a0e358c396338be22cbbbb26238d9fb32e2881d7f5bb70187719e89a804"
+    },
+    {
+      "path": "Erdos345/DenseIntervalAddition.lean",
+      "bytes": 3871,
+      "sha256": "c21edfac13ece404ea676f2a9ef232748118d706e24b1153ddc07ad82719a0ec"
+    },
+    {
+      "path": "Erdos345/IndexedSumset.lean",
+      "bytes": 2419,
+      "sha256": "988e7d2091b9f70afe159944642f6d64383d05fb110fc73a10b75605927cb809"
+    },
+    {
+      "path": "Erdos345/FiniteSumsetSpan.lean",
+      "bytes": 1755,
+      "sha256": "e84076393580a0ce5862f6e9e621b9de485c3da06cdc037eaf71f1f83b46ce9a"
+    },
+    {
+      "path": "Erdos345/ResidueProjectionCount.lean",
+      "bytes": 2756,
+      "sha256": "f8a1518afcb1292b1fa58924f82363c5cfa702bcf9cc81d66c403013bf9095dc"
+    },
+    {
+      "path": "Erdos345/CamKneserStabilizer.lean",
+      "bytes": 17938,
+      "sha256": "9b6572af6ebdf6e430324ada3037dea350a275df61ed945d7601698325267978"
+    },
+    {
+      "path": "Erdos345/CamKneser.lean",
+      "bytes": 27546,
+      "sha256": "20118d956a42bda3e6b9705769c144354690af56ce366dc1e1da290ee63782be"
+    },
+    {
+      "path": "Erdos345/MultipleKneser.lean",
+      "bytes": 4925,
+      "sha256": "675dd591b6040438db189164adc36456ae5666e2b34437b3af113590e460edca"
+    },
+    {
+      "path": "Erdos345/EndpointSumsetGrowth.lean",
+      "bytes": 2131,
+      "sha256": "e5dfdec64867e0fcf1a2d51253aa0f5fa278afcb7d82d6b9379f07026ef7440a"
+    },
+    {
+      "path": "Erdos345/FiniteFiberBounds.lean",
+      "bytes": 2045,
+      "sha256": "da76feac252f1cb1d5f8add3027c6223251b88353748db7c8822be78ef5d4d7b"
+    },
+    {
+      "path": "Erdos345/QuotientFiberBounds.lean",
+      "bytes": 1664,
+      "sha256": "18d4d0aa026eb0144ff0b910d37a62492badd177cf4b9b3ac02a9e5ed6fb631a"
+    },
+    {
+      "path": "Erdos345/AdditiveProjection.lean",
+      "bytes": 2734,
+      "sha256": "aa35bd1b6632fab17c1722d4d5317ff4248f2463630e34b57ff91a4199d547b4"
+    },
+    {
+      "path": "Erdos345/QuotientSumsetFibers.lean",
+      "bytes": 3191,
+      "sha256": "52bb5b7ab701f06f2fb93bd456b5a3b9fef13a1b3f127f31040a321e190cc3cb"
+    },
+    {
+      "path": "Erdos345/StabilizerQuotientCard.lean",
+      "bytes": 2768,
+      "sha256": "8580d1bb23bb4cee67b5986326cb52c9ceabe6eb40a042fc3ed96465724d56bc"
+    },
+    {
+      "path": "Erdos345/FiniteFiberPartition.lean",
+      "bytes": 1910,
+      "sha256": "ce959b218c52d48a0225578fbb60dc1008d8797cfdb708bc15529723424d02a5"
+    },
+    {
+      "path": "Erdos345/PeriodicLiftingArithmetic.lean",
+      "bytes": 695,
+      "sha256": "aafbbdf30a615e9e1f8c04b64150ecd5a588a82b053ff81bbedb1c6d6e1657dd"
+    },
+    {
+      "path": "Erdos345/QuotientRegionGrowth.lean",
+      "bytes": 2472,
+      "sha256": "dee1ac5ea87c83522cb5d12572d31d79341d6c63a82da8ffafcc5a723b3d51db"
+    },
+    {
+      "path": "Erdos345/StabilizedFiberBound.lean",
+      "bytes": 1547,
+      "sha256": "5371a098c1f6b1621e6fed19e67d85312dc9cd4c452bc9bbb18f6bae96d389d8"
+    },
+    {
+      "path": "Erdos345/PeriodicSumsetLifting.lean",
+      "bytes": 4729,
+      "sha256": "bdcb98cb36843cdb0b689e54d090020d24c70cff7cf0bf1bec4e1e3fd41c1299"
+    },
+    {
+      "path": "Erdos345/QuotientNewClasses.lean",
+      "bytes": 2364,
+      "sha256": "d00a12312597e1d476e5b6c7e2c77982b53806204e06fbf9055edda0ef4f7a48"
+    },
+    {
+      "path": "Erdos345/IntegerSumsetGrowth.lean",
+      "bytes": 3582,
+      "sha256": "58e4f2768003eecb67ce9f18aaa928222a0ce8d7c0815995737a614dc4cd260d"
+    },
+    {
+      "path": "Erdos345/NaturalResidueGeneration.lean",
+      "bytes": 2321,
+      "sha256": "8edb5c430f98bca16d99280f2907e8e6f457be37dd3ad7b563a6c1e84ede0c55"
+    },
+    {
+      "path": "Erdos345/LevIntegerGrowth.lean",
+      "bytes": 2729,
+      "sha256": "123f5ff43488220d1e14ba978703ac9e53de761f3a717e3ac2eafc5984aee6ca"
+    },
+    {
+      "path": "Erdos345/SortedPrefixGrowth.lean",
+      "bytes": 2475,
+      "sha256": "eb9b98786097a1e93c1ddb3f397f44c45cbf8511f821f3731d4b5df99968061d"
+    },
+    {
+      "path": "Erdos345/SortedPrefixDensity.lean",
+      "bytes": 2963,
+      "sha256": "3ccac2659fac30e6a5596f4a3137aa18e2ec64a2fd4efac1fd82e9e91c036bcd"
+    },
+    {
+      "path": "Erdos345/AlternatingSums.lean",
+      "bytes": 1690,
+      "sha256": "a9fb0046f4cbca7961daa937e99a0eab66e440b658c93c5feeb06030b9cb692e"
+    },
+    {
+      "path": "Erdos345/DenseBalancedInterval.lean",
+      "bytes": 1440,
+      "sha256": "f96f77a3a81f842116c1c3f8e6ea05afd95f7e7d8ed89c43a9af3c831357746c"
+    },
+    {
+      "path": "Erdos345/SortedBlocksInterval.lean",
+      "bytes": 2510,
+      "sha256": "5dee8fe19244c330210ef77dfe4c4c496decc12ebe44d3e6caf44878797a019e"
+    },
+    {
+      "path": "Erdos345/FiniteFamilyInterval.lean",
+      "bytes": 1808,
+      "sha256": "dcc960aabea75e46915a64d3591abbb319869e745978732ab7044a0a9db5f3f5"
+    },
+    {
+      "path": "Erdos345/SharpIntervalParameters.lean",
+      "bytes": 361,
+      "sha256": "2e41675fe6d8ed6b372fbc5eccf4d456ffe32876da6dc4972cfe61ba578c8d26"
+    },
+    {
+      "path": "Erdos345/RepresentedIntervalSelection.lean",
+      "bytes": 3727,
+      "sha256": "329143e02904c97f5aafd912d9df92533fb3fad5a584f3363b3fd28108c7883a"
+    },
+    {
+      "path": "Erdos345/GoodDegreeThreshold.lean",
+      "bytes": 1146,
+      "sha256": "fdddcfb2dec2a9f26dbc962cfca68a6e1b950800a2e840ccf7aabd2236861ca6"
+    },
+    {
+      "path": "Erdos345/PrimeCountThresholdLower.lean",
+      "bytes": 3282,
+      "sha256": "21becdbe3959552a6957a980d94872ddccaa7e4e55478ad899973ed2516d8db1"
+    },
+    {
+      "path": "Erdos345/ThresholdUpperLog.lean",
+      "bytes": 1941,
+      "sha256": "cc19d173360ee412a60189cb96f9ec37c7b761a600edeaf59c88772873bf63e2"
+    },
+    {
+      "path": "Erdos345/FiniteThresholdInversion.lean",
+      "bytes": 3161,
+      "sha256": "29bf018de4aabd2f80b79aa2e9cbe1bab218df7587fe59dc90331ea8e9903508"
+    },
+    {
+      "path": "Erdos345/AnalyticInputAssembly.lean",
+      "bytes": 1139,
+      "sha256": "56e420b61dde67e74c078df22a29ca4b7b948c8177a373cc799f50542d3fbaab"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeAsymptotics.lean",
+      "bytes": 4299,
+      "sha256": "2c0cecb6abed3f443ea7a78de89e11f9582292aa624c1a3d58eda2dbe352dfce"
+    },
+    {
+      "path": "Erdos345/PublishedInputAssembly.lean",
+      "bytes": 1546,
+      "sha256": "f9d07dbefc27715eea9856ba92d5304835839a55e1c43d832100469ed4057a04"
+    },
+    {
+      "path": "Erdos345/CosineMassInterpolation.lean",
+      "bytes": 3956,
+      "sha256": "5d40f9e93d0098453bb846422cea9e9836ce5602aafde75fcb2d0adb6c377495"
+    },
+    {
+      "path": "Erdos345/CosineFamilyMass.lean",
+      "bytes": 3285,
+      "sha256": "4905a90d8ad8e6a4299a795f634f934dcbdd74056f39c28cbceaf8d99c0e145e"
+    },
+    {
+      "path": "Erdos345/CountingProfileWeights.lean",
+      "bytes": 2908,
+      "sha256": "13e0957f68bd3e4f1ef4230a3acb4e23c7bf7e816f3a7b57fd8cea34f519ed62"
+    },
+    {
+      "path": "Erdos345/BelovProfileReduction.lean",
+      "bytes": 1696,
+      "sha256": "f907d701de4755b3389f036720e0d9e9d073d74ea98db1a4792cd2d720a7ac48"
+    },
+    {
+      "path": "Erdos345/OddSineBlocks.lean",
+      "bytes": 3298,
+      "sha256": "18f9192b969e30275f284ccde01b16e820d132b1f568eeab9017ba05cfc23664"
+    },
+    {
+      "path": "Erdos345/ScaledSineBlocks.lean",
+      "bytes": 1584,
+      "sha256": "c5e2be2163a8b1879ad57e35e9f42d2798ab269d86b74e0d7c3faf305e1fffb6"
+    },
+    {
+      "path": "Erdos345/SineBlockAbsolute.lean",
+      "bytes": 1465,
+      "sha256": "63bf3579f812489b1c6426abd667a6ed58c78667150a30d2bb1617c25165e34c"
+    },
+    {
+      "path": "Erdos345/DyadicPolynomialSummability.lean",
+      "bytes": 784,
+      "sha256": "85399fb0f8e4a3311187eb22850b42a037dde847f99b6b7a4546310e6bbba9fe"
+    },
+    {
+      "path": "Erdos345/DyadicSineSeries.lean",
+      "bytes": 3714,
+      "sha256": "a1be5406d6c4fa3567618027e77bca34566272389555ebf8c1f651049722997a"
+    },
+    {
+      "path": "Erdos345/NonnegativeSineTail.lean",
+      "bytes": 2281,
+      "sha256": "6cf53962faf71e45fe5ff2c0bd0c694922f395fb7b8f1c632a0277680f5829f1"
+    },
+    {
+      "path": "Erdos345/BelovDyadicFamily.lean",
+      "bytes": 3450,
+      "sha256": "b4d8d580595fdbda03a53d7c130bc7a2c1ba7e4993f909609d1aa44067040778"
+    },
+    {
+      "path": "Erdos345/DyadicFrequency.lean",
+      "bytes": 3875,
+      "sha256": "b0457dc020a4469d308451590a0ace2ec1efc9d1bf9e07213371a6724c8a5f54"
+    },
+    {
+      "path": "Erdos345/DyadicSineFlattening.lean",
+      "bytes": 2551,
+      "sha256": "a4636b57daf33f0c09d9720650a76d7a92e2b519bef9c388bc6d551aa842819b"
+    },
+    {
+      "path": "Erdos345/BelovReciprocalFamily.lean",
+      "bytes": 4864,
+      "sha256": "8ac0de5e27abeb6336e7ff1137eb8b975c93005f9e58519bb71a7d6fc490957a"
+    },
+    {
+      "path": "Erdos345/ReciprocalCountingProfile.lean",
+      "bytes": 4959,
+      "sha256": "b7a181b4ac9cd0d351d7b22563e90c24897da0c561526c95344843aea6b21b31"
+    },
+    {
+      "path": "Erdos345/TruncatedCosineBound.lean",
+      "bytes": 2621,
+      "sha256": "2cc8d5f878736817bb5ebfdd6690c8e8ea13e03e1ec3110bb24368d9ec00ef2f"
+    },
+    {
+      "path": "Erdos345/FloorCosineProfile.lean",
+      "bytes": 3568,
+      "sha256": "c655bd8c8f3ed004915f00bcff12cbd1919b193f0db2d7ca2185b97d08f45246"
+    },
+    {
+      "path": "Erdos345/ProfileCosinePositivity.lean",
+      "bytes": 2370,
+      "sha256": "b1f3a97f54dacfb0b4746be599e2cfda7680b578ac16decb5a8d33fc4850577b"
+    },
+    {
+      "path": "Erdos345/CosineHalfPeriodExtension.lean",
+      "bytes": 1309,
+      "sha256": "296fab26390db5bb67597d6c666f59dd2270883dcdfb080a9bea37ccda884030"
+    },
+    {
+      "path": "Erdos345/ConcreteProfileBridge.lean",
+      "bytes": 3037,
+      "sha256": "eeda989f1a334025fce78173ec5629328c58329d02edf17023a54e8e52241665"
+    },
+    {
+      "path": "Erdos345/PrimeCountingUpper.lean",
+      "bytes": 1742,
+      "sha256": "930dcda02eeed0aa11afb05a78abb70f741b9121c296a2ec9a0adbb6c89a51ed"
+    },
+    {
+      "path": "Erdos345/BelovPrimeMass.lean",
+      "bytes": 4816,
+      "sha256": "b748f08f0e0413d2f69d45a5e21953a5c24a06e73444d4abd7ae10c0bbcd0bfc"
+    },
+    {
+      "path": "Erdos345/DyadicFifthMoment.lean",
+      "bytes": 3323,
+      "sha256": "44c9dca137ba7eb0f4ff5debe96303ff15e9ac695f1e3d9dafc4f44969b15d0a"
+    },
+    {
+      "path": "Erdos345/BelovProfileLevels.lean",
+      "bytes": 4627,
+      "sha256": "53eeca30b63ab916e5179d7819fb35403d75b8e43020a883cc9214b89f8e0115"
+    },
+    {
+      "path": "Erdos345/BelovProfileTail.lean",
+      "bytes": 3552,
+      "sha256": "2af84517ba2610a06f74747ff96843a01c6af3e824257e22386df965477d2d3e"
+    },
+    {
+      "path": "Erdos345/BelovProfileBudget.lean",
+      "bytes": 4238,
+      "sha256": "b02b30241dc1121b44e49527b967c180809e0768cfb70ce559b283afe7aa4376"
+    },
+    {
+      "path": "Erdos345/PrimePhaseDistance.lean",
+      "bytes": 2252,
+      "sha256": "ddfc79ad71f3fbbf9143853d841bbb253893c3a19673334f0fb1ba8827880ed9"
+    },
+    {
+      "path": "Erdos345/SineDistanceBound.lean",
+      "bytes": 2468,
+      "sha256": "3bccc60dd27197fbec0a2fb30ceb401a235e1146bdc1f0491413d412a918d432"
+    },
+    {
+      "path": "Erdos345/PrimePhaseLogBins.lean",
+      "bytes": 3356,
+      "sha256": "2a8d2c1f4ec629a41bb8cf207080585d8fe95e717fe41cec19683a9c88bf567e"
+    },
+    {
+      "path": "Erdos345/PrimeLogRatio.lean",
+      "bytes": 2144,
+      "sha256": "f746b367268912319008c5cbd8091027ffd865c8836c27aa06515e5d433ae87d"
+    },
+    {
+      "path": "Erdos345/PrimeSineBinBounds.lean",
+      "bytes": 1993,
+      "sha256": "1dacc77ded95782f7b3c8d18906dca5b7d9d5c6da047f731d1e4e9d6c8e94323"
+    },
+    {
+      "path": "Erdos345/PrimeSineCancellation.lean",
+      "bytes": 4364,
+      "sha256": "200e6fcb03edbe2fdaef2269228965387f5c3eb76d2436b57f6a23e03dc5aeef"
+    },
+    {
+      "path": "Erdos345/BelovBoundedPositivity.lean",
+      "bytes": 5544,
+      "sha256": "a658af1e268d8429541399a5629f586eab24dfc4f060a36ecf2ee9419903c604"
+    },
+    {
+      "path": "Erdos345/BelovNegativeLevels.lean",
+      "bytes": 6419,
+      "sha256": "2e38a3852383f210ff46d1bf815a289a33c80126ef307499a40334cf32237559"
+    },
+    {
+      "path": "Erdos345/PrimeThetaLower.lean",
+      "bytes": 1953,
+      "sha256": "fb899c51ce5a31398cc9d9528587b7723a16f687974e60ea28b209ec88ca0806"
+    },
+    {
+      "path": "Erdos345/PrimeMassLower.lean",
+      "bytes": 3916,
+      "sha256": "6f981ce2ded243d9cc7d3f5c74103af58f11c577adf57c273cf791e1c818b626"
+    },
+    {
+      "path": "Erdos345/BelovSafeLevels.lean",
+      "bytes": 3935,
+      "sha256": "53bcb1701437e04cd966a88f08b9d9aaf9e64fe7212565121e41113a8261acb1"
+    },
+    {
+      "path": "Erdos345/BelovLargePositivity.lean",
+      "bytes": 6023,
+      "sha256": "a9c9e562cea7e9e6659fec070e7fb9beb0f38dbc142b1bc57fcd13fca2b3efaf"
+    },
+    {
+      "path": "Erdos345/BelovAnalyticInput.lean",
+      "bytes": 1419,
+      "sha256": "c381463d04c712464ccda33de8bd913d26eece849c4c111a3921e9071a49d764"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimePairCounting.lean",
+      "bytes": 3067,
+      "sha256": "4eaefc5eb785ce2dcdff17ee817f1fac0f7dee9282a18e7450b7e9c476ffe17b"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeGcdClasses.lean",
+      "bytes": 3195,
+      "sha256": "4782b031859f2a9d021553db360f7e398369007d9c8a5760609060297c32ec16"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeDoubleCounting.lean",
+      "bytes": 3563,
+      "sha256": "9a95f8707d0114d3f1372069fa32763eb91dd1f7d9dcc1a1c259a8097f04d040"
+    },
+    {
+      "path": "Erdos345/PrimeSubsetProducts.lean",
+      "bytes": 3789,
+      "sha256": "4d2492cec3e8c78b1f9f04464adc6c57723a96c97fbdc3d8d9bf25b8b66820e0"
+    },
+    {
+      "path": "Erdos345/PrimeSubsetGrowth.lean",
+      "bytes": 2313,
+      "sha256": "453f3bfa30de6015b434f95cb0d2c84e319711e486b6f86d4a041f1a3aee0260"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/Indices.lean",
+      "bytes": 21815,
+      "sha256": "eef3b846ab6b7d7d84738ce688ffa7fc5bd270916ea305df8619676e10b495cf"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/DivisorSums.lean",
+      "bytes": 21553,
+      "sha256": "04928c4df1b9283c88746c862e29c29a53f0839a8a0db473a5b48500085a55b5"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/DivisorBounds.lean",
+      "bytes": 23143,
+      "sha256": "c926420ab656fc23dc57e28702faef5ec6cfec72c0ac0051588838379dfca72c"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/Profiles.lean",
+      "bytes": 21702,
+      "sha256": "a6c90478ad20311fa4ee0aa68239e5c8b6029d4c8ff0df194b3206728acc38e3"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ProfileVariance.lean",
+      "bytes": 24869,
+      "sha256": "7a3d580f4f5aeb72e885eb65d963d2d96dd04f891a38df5b0b606ef22a7c35f2"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/LevelMoments.lean",
+      "bytes": 25519,
+      "sha256": "3a461ef797c8450cca0eec5812260aeb98d814c720275c03c76aa941b6a2d69a"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/OrthantIntegrals.lean",
+      "bytes": 23442,
+      "sha256": "7f9495a1324ad36be4adb264c6dcc916b5e15d3699db84b4bb55f73aa3ba0647"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/MangoldtBounds.lean",
+      "bytes": 27333,
+      "sha256": "9940dc3c42aa27c911468fe992e83fef16b726a837d2e03a09bf82acb6273849"
+    },
+    {
+      "path": "Erdos345/PrimeProgressionLower.lean",
+      "bytes": 3134,
+      "sha256": "b0c63ccce0e0c9dad62a28ae72a2274623fd6c56cc37693c2557284c67c7ea40"
+    },
+    {
+      "path": "Erdos345/PrimeProgressionUniform.lean",
+      "bytes": 3650,
+      "sha256": "be11e9dfad9598ce5f2a4c86d18e819dc77a7660aa15fa825026d4e919146c38"
+    },
+    {
+      "path": "Erdos345/PrimeProgressionAsymptotics.lean",
+      "bytes": 2119,
+      "sha256": "115db044c3f46d9e24380ae22adeb5bd908cc7982fd018c38fdc23091c87aae9"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeProgressionCriterion.lean",
+      "bytes": 3068,
+      "sha256": "460c7b3a9074b2f9ddd59bc993eb36194479a9de2d3ad8d07e1dbc67e3fd216a"
+    },
+    {
+      "path": "Erdos345/ShiftedPrimeAbundance.lean",
+      "bytes": 4869,
+      "sha256": "e3e772c610a0f7ac634a5a080f454a1d418bfb8acdf88206d46b3289de72a78a"
+    },
+    {
+      "path": "Erdos345/PrimeDistributionAssembly.lean",
+      "bytes": 478,
+      "sha256": "707209fc2ca72f8d24a7985c980bd642fc02d5bf549666769f6690f50480877c"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/SingularSeries.lean",
+      "bytes": 22200,
+      "sha256": "4ca5a56022cd13cf2f32b2d1734538c5d2082060720ebad8c7bf6d4cbf3fe440"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/SingularTails.lean",
+      "bytes": 22659,
+      "sha256": "978518e99187073a643b4474067e6de8862a5c971dba557463ba6257a390a39c"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/BoxMeans.lean",
+      "bytes": 19419,
+      "sha256": "8c22fc423ad3d04ab2c3b231ea5b2f3db6c149e05ca1a71891e3ec1569c97b51"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ZetaKernel.lean",
+      "bytes": 17811,
+      "sha256": "64de1ca9ae83a36556819d63723479e4f122214513500179de90b42b090f8ea2"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/EulerFactors.lean",
+      "bytes": 24448,
+      "sha256": "f21a355c2dd9c43de19bdef742d5f9b31e4a296ee4a3875c2d948dbebd95b7a4"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/EulerProducts.lean",
+      "bytes": 14246,
+      "sha256": "c8ff6cc17298ad08089811a8e6893adca4591e5f51e64096276215cbce4938e7"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/FourierNormalization.lean",
+      "bytes": 22854,
+      "sha256": "fd95d66bb097085b69196c6f7202756f65d569f91dd374c5e12e41b4cdc35cc1"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/EulerChoices.lean",
+      "bytes": 26880,
+      "sha256": "c3dea97f72d4072177d335c3dcab4b639c90f39aafe34811100db41ef6996b12"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ContourSums.lean",
+      "bytes": 24522,
+      "sha256": "8d19754f699671a90b617306fb27e4e53e6a8ffbf2d2424fb7ec59ed00810267"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/FourierDerivatives.lean",
+      "bytes": 24478,
+      "sha256": "1278f240652baf42dcca61475ea0baec8c4217625dbad796e95463c369832ce4"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ContourIntegrals.lean",
+      "bytes": 26443,
+      "sha256": "71057b4372c1302d7a0d257a7d20c3927105f53d1d95d04edba7be329ddf0592"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/LaplaceTransform.lean",
+      "bytes": 24969,
+      "sha256": "5d7842136ca60fa974f59b5d5c44ae9d2b7c31408276299add41f1373d770146"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/CumulativeProfiles.lean",
+      "bytes": 23146,
+      "sha256": "5d65130d0248a515394b57fda37c93e8b0b9d359161a7570dad330b653279807"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/TensorProfiles.lean",
+      "bytes": 23532,
+      "sha256": "4aa353abf5e132d2003a1f4d62dbdcc091bebbb2b929f9ac554e9f6e7187680a"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/EqualityPatterns.lean",
+      "bytes": 21889,
+      "sha256": "5b61e6e616e96eef0d87779584a4fd3fe44a85ca8cfbac53b50fb2c3126d4af5"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/Detectors.lean",
+      "bytes": 23072,
+      "sha256": "f917c8899cff14cc886a086169455216846d319a9cc217180e8cbe8a05264c97"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/PatternMoments.lean",
+      "bytes": 22868,
+      "sha256": "1ff357f0eacfd2d18cf6ff2131d82f665a98f9710205e82a976c66dc8b2e5df5"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/WeightMoments.lean",
+      "bytes": 25570,
+      "sha256": "f48c2c243a084e6253ff24ca7cc0f945ca237e57f4463ea3b2091482a0f5ae62"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ProfileSymmetry.lean",
+      "bytes": 26978,
+      "sha256": "b9c1303455995b2318213b002600bffac43ce9ac1fc6b20b04e46b92ee994490"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/MarkedMoments.lean",
+      "bytes": 24420,
+      "sha256": "3ce8d72afcdae92693b5ab274fcb2ccdc96b95702bc40cee2b0e6f3e15331b71"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/RestrictedWeights.lean",
+      "bytes": 26128,
+      "sha256": "487f96c36735b49e7c30467e5b49ac37086912af760ba6869938e56d358aa2ea"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/PairedDetectors.lean",
+      "bytes": 28198,
+      "sha256": "4c7684313cb85e48a788e29314c5a41e2d9361eea8d6584d020ac4fd48c92450"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/DetectorMoments.lean",
+      "bytes": 17405,
+      "sha256": "35770b3dae910c7041dd23e821e0a48ba1d1e040e115a22b62ab0bed58e1ff4f"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/CharacterErrors.lean",
+      "bytes": 21657,
+      "sha256": "e2d8b0044be064587e44e1e0ea5df95f680109ffa54f8a98deb7b62da3abf9c7"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/AdditiveSieve.lean",
+      "bytes": 17343,
+      "sha256": "b7d07901d3d9808764b69b88ef3e6f58c099b0b0ca1df992ccab63854c3ccfb7"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/MultiplicativeSieve.lean",
+      "bytes": 19535,
+      "sha256": "5c2c7926ba8ad875ebf28741b7f7073cff8ed8d002690bd69a5609c9f1c96895"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/VaughanIdentity.lean",
+      "bytes": 19211,
+      "sha256": "38c9455cdc88b7c68a22d110651e0daa16f908a7387e693c52ababbc612eeb12"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/VaughanBounds.lean",
+      "bytes": 21478,
+      "sha256": "cb10008b2c234d6bbda20d74d2c7c2c9ad18fda3cb1fbadda669a103aa74ca43"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/DyadicMeans.lean",
+      "bytes": 23685,
+      "sha256": "4b12a89d820a7c9069806b63d7531396c60b41d6a674884a213e15d62271dfed"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ConductorBounds.lean",
+      "bytes": 24016,
+      "sha256": "3cce3cfc96b3aa71b6945040f4d46cf0f4007bd0707125d4b342272580556fdd"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/LogParameters.lean",
+      "bytes": 19945,
+      "sha256": "8ac53178fe74067d0d056b4934e8d2d91eb2e4da4e67572339f880dd2a128f3d"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/DirichletGrowth.lean",
+      "bytes": 27681,
+      "sha256": "2ba96f2b90fec95d706883a7f5eebf1ee4959f113af3383988f87e4d328c182d"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/TaylorBounds.lean",
+      "bytes": 29078,
+      "sha256": "88f0005fd5c701c71da8c468506834df3420dbd3867c19c1c7fd407ac9ab6c5e"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/SiegelBounds.lean",
+      "bytes": 25622,
+      "sha256": "dc932b1f96809d55c89f1578f15df3c3641741ff793d848a2668d34709f28a61"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/ZeroFreeBounds.lean",
+      "bytes": 25017,
+      "sha256": "fb0fcb466b5edd111481abf621495b56b899247e02bade267e8465c7af97c0bf"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/PrincipalGrowth.lean",
+      "bytes": 19620,
+      "sha256": "147d58f9c66a3da3291584f9f619b3d2ed9e6e80c2840da40487c7ded238a562"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/RieszBounds.lean",
+      "bytes": 10309,
+      "sha256": "dd42b727ed2e20a4bd6b5c9a6a7ee4433cf6622d5a09533d55c92aa774a132d2"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/MellinSmoothing.lean",
+      "bytes": 24111,
+      "sha256": "464f0fcb381a3597004be3a838c0228492e59b9165e234e8e334bb67f537c19d"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/RieszDecay.lean",
+      "bytes": 16893,
+      "sha256": "9cc1830f8cba9e1caf399e53f9c955071849caf3cb8a491fdb4da26e2f10646c"
+    },
+    {
+      "path": "OAI/NumberTheory/PrimeGaps/Main.lean",
+      "bytes": 6970,
+      "sha256": "3fc057038c3849a2fd14abd3bb4ecfc1b5596c4b06e6bf114b0b711cc4100b77"
+    },
+    {
+      "path": "Erdos345/Conclusion.lean",
+      "bytes": 760,
+      "sha256": "546636de79e24a6c9d2ea11e592ecc61b75205a10386391a3f4b042c622487ba"
+    },
+    {
+      "path": "Erdos345.lean",
+      "bytes": 11121,
+      "sha256": "e184982a8766f3446abbd9e970fad7cfdfee49a7f8c48144e56b694e78b30da3"
+    },
+    {
+      "path": "Audit.lean",
+      "bytes": 89180,
+      "sha256": "8216544a78a6c19f8d9133b9d967af594f6c2d03d917c331e143d45995b93e72"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 29,
+      "sha256": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 351,
+      "sha256": "19a3ebaf17321badc4147d6e198a2b84e19930f9c44920fd6644c7c9f4453ba6"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3562,
+      "sha256": "b75b9bf0b1b796829552d918dee06114f4899809875b7005500fa79d93c3198f"
+    },
+    {
+      "path": "CAM_KNESER_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "CAM_KNESER_SOURCE.md",
+      "bytes": 2943,
+      "sha256": "4b6e7c7a006b0c4f5cee421b26a7b4fc02163ab356e273adc5047ff6c2376d97"
+    },
+    {
+      "path": "OAI/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "OAI_SOURCE.md",
+      "bytes": 1948,
+      "sha256": "19da58f25c9a174ab75f39cb1a80ff92cff05d232100ea5f46a144a477683f0a"
+    }
+  ],
+  "paper_sha256": "fa8e150cedfd7a11dd9b1b70d1a8cd1aee02c124f9f33fceaf97a4633c6ab72f",
+  "paper_tex_sha256": "ae9f8b9812bd5b6a968ab4399094f2a1a7b48df5dcf8c859ff659921303740ab",
+  "scope_note": "Mathematical sources and unchanged build inputs/provenance. Packaging-only .gitignore and .gitattributes are recorded separately by the release manifest.",
+  "paper_revision_note": "One bibliographic title spelling corrected; mathematical text unchanged from the reviewed November 8 paper."
+}

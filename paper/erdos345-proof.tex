@@ -1,0 +1,1206 @@
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{mathtools,amssymb}
+\usepackage{xcolor}
+\definecolor{linkblue}{rgb}{0,0,0.6}
+\usepackage[colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue]{hyperref}
+\hypersetup{pdftitle={Infinitely Many Decreases in Distinct-Power Thresholds},
+pdfauthor={Will Howe; Grant Huffman; Jensen Kohlmeyer; Liam Kruer}}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\e}{\mathrm e}
+\newcommand{\ii}{\mathrm i}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\normone}[1]{\lVert #1\rVert_1}
+\newcommand{\dist}[1]{\lVert #1\rVert_{\R/\Z}}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\Var}{Var}
+\setlength{\emergencystretch}{2em}
+\allowdisplaybreaks[1]
+\title[Distinct-power thresholds]{Infinitely many decreases in the thresholds\\
+for sums of distinct powers}
+\author[W. Howe]{Will Howe}
+\author[G. Huffman]{Grant Huffman}
+\author[J. Kohlmeyer]{Jensen Kohlmeyer}
+\author[L. Kruer]{Liam Kruer}
+\date{November 8, 2026}
+\subjclass[2020]{11P05, 05A17}
+\keywords{distinct powers, subset sums, complete sequences, cyclotomic recurrences}
+\thanks{Email addresses:
+\href{mailto:howew@purdue.edu}{\texttt{howew@purdue.edu}} (Will Howe);
+\href{mailto:huffma97@purdue.edu}{\texttt{huffma97@purdue.edu}} (Grant Huffman);
+\href{mailto:jenwin@purdue.edu}{\texttt{jenwin@purdue.edu}} (Jensen Kohlmeyer);
+\href{mailto:kruerl@purdue.edu}{\texttt{kruerl@purdue.edu}} (Liam Kruer).}
+\begin{document}
+\begin{abstract}
+Let \(T_k\) be the least integer such that every integer at least \(T_k\)
+is a sum of distinct positive \(k\)th powers. We prove that
+\(T_k>T_{k+1}\) for infinitely many positive integers \(k\).
+The principal upper estimate holds on a set of degrees meeting every
+sufficiently large dyadic interval:
+\[
+ \log T_k\le(1+o(1))\,k
+ \exp\!\left(\frac25\frac{\log k}{\log\log k}\right).
+\]
+We obtain it from flat integral recurrences, cyclotomic coefficient
+estimates, an exact reduction of polynomial degree, and a subset-sum
+construction. A shifted-prime divisor theorem of Fan and Pollack supplies
+larger lower bounds along an unbounded sequence of degrees. The two
+estimates contradict eventual monotonicity of the thresholds.
+\end{abstract}
+\maketitle
+
+\section{The problem and the two estimates}
+For \(A\subseteq\Z_{\ge0}\), write
+\[
+ \Sigma(A)=\left\{\sum_{a\in B}a:B\subseteq A,\ B\text{ finite}\right\}.
+\]
+The empty sum is allowed. Let \(\mathcal P_k=\{n^k:n\in\N,\ n\ge1\}\), and put
+\[
+ T_k=\min\{T\in\Z_{\ge0}:[T,\infty)\cap\Z\subseteq\Sigma(\mathcal P_k)\}.
+\]
+The finiteness of \(T_k\) for every positive \(k\) is classical; see
+Kim~\cite{Kim}. We have \(T_1=0\). If \(k\ge2\), the integer two is
+not representable, so \(T_k\ge3\). For \(k\ge2\), using the largest
+exceptional integer instead subtracts one from each threshold, and
+therefore preserves adjacent comparisons. The question considered here
+is Erd\H{o}s problem~345; see Erd\H{o}s and Graham~\cite[p.~55]{EG}.
+
+\begin{theorem}\label{thm:main}
+There are infinitely many positive integers \(k\) for which
+\(T_k>T_{k+1}\).
+\end{theorem}
+
+All logarithms are natural, and
+\(\mathcal L(x)=\log x/\log\log x\) for \(x>\e\).
+An unspecified positive absolute constant may be enlarged when it
+reappears; dependence on a fixed parameter is indicated by a subscript.
+All asymptotic estimates below are uniform in the degrees and
+frequencies to which they are applied.
+
+\begin{proposition}\label{prop:upper}
+There is a set \(\mathcal G\subseteq\N\) meeting every sufficiently large
+interval \([2^m,2^{m+1}]\) such that
+\begin{equation}\label{eq:upper}
+ \log T_k\le(1+o(1))\,k\exp\!\left(\frac25\mathcal L(k)\right)
+ \qquad(k\in\mathcal G).
+\end{equation}
+\end{proposition}
+This is proved in Sections~\ref{sec:flat}--\ref{sec:completion}.
+For comparison, define
+\[
+ \omega^*(n)=\#\{p:p\text{ prime},\ p-1\mid n\},\qquad
+ D(n)=\prod_{\substack{p\text{ prime}\\p-1\mid n}}p.
+\]
+Fan and Pollack~\cite[Theorem~1]{FP} prove unconditionally that
+\begin{equation}\label{eq:FP}
+ \omega^*(n)>
+ \exp\!\left((0.6736\log2)\mathcal L(n)\right)
+\end{equation}
+for infinitely many \(n\). Only this infinitely-often conclusion is used.
+
+\begin{lemma}\label{lem:lower}
+There are arbitrarily large \(j\) such that
+\begin{equation}\label{eq:lower}
+ \log T_j\ge j\exp\!\left(\frac9{20}\mathcal L(j)\right).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Choose \(n\) satisfying \eqref{eq:FP}, and put \(j=n+1\) and \(Q=D(n)\).
+For every integer \(b\), \(b^j\equiv b\pmod Q\). Modulo a prime factor
+\(p\) of \(Q\), this follows from \(p-1\mid n\) if \(p\nmid b\);
+if \(p\mid b\), both sides vanish. The factors of \(Q\) are distinct.
+
+Set \(H=\lfloor\sqrt Q\rfloor\) and \(S=H(H+1)/2<Q\).
+Subset sums of powers with bases at most \(H\) have residues in
+\(\{0,\ldots,S\}\). Choose \(M\equiv S+1\pmod Q\) with
+\[
+ (H+1)^j-Q\le M<(H+1)^j.
+\]
+For large \(Q\) and \(j\ge3\), this is positive. It cannot be represented:
+a base larger than \(H\) contributes too much, while the smaller bases
+cannot produce its residue. Hence
+\[
+ \log T_j\ge\log M\ge \frac j2\log Q-O(j).
+\]
+Since \(\log Q\ge(\log2)\omega^*(n)\),
+\(0.6736\log2>9/20\), and
+\(\mathcal L(n+1)-\mathcal L(n)\to0\), the fixed factors and the error
+are absorbed by the strict difference of constants. This proves
+\eqref{eq:lower}.
+\end{proof}
+
+\section{Flat products and integral recurrences}\label{sec:flat}
+For \(P(z)=\sum_h w_hz^h\), put \(\normone P=\sum_h|w_h|\).
+Let \(E\) denote the shift operator on sequences:
+\((Ex)_n=x_{n+1}\), and write \(\Delta=E-1\).
+A rational polynomial is called integer-valued if its values at all
+integers are integers.
+
+We use the following consequence of Belov and
+Konyagin~\cite[Corollary~0.2]{BK}. For every positive integer \(J\), there
+are nonincreasing nonnegative integers \(a_1,\ldots,a_J\), of sum \(J\),
+and a real \(a_0\), such that
+\begin{equation}\label{eq:cosine}
+ a_0+\sum_{h=1}^J a_h\cos(h\theta)\ge0\quad(\theta\in\R),
+ \qquad a_0\le2^{32}(1+\log J)^5.
+\end{equation}
+
+\begin{lemma}\label{lem:flat}
+For every \(J\ge1\), one can choose
+\[
+ P_J(z)=\prod_{h=1}^J(1-z^h)^{a_h}=(1-z)^JQ_J(z)\in\Z[z]
+\]
+so that
+\begin{align}
+ \deg P_J&\le J^2,&
+ \log\normone{P_J}&\le C(1+\log J)^6,\label{eq:flatnorm}\\
+ Q_J&\in\Z_{\ge0}[z],&
+ M_J:=Q_J(1)&=\prod_h h^{a_h}\mid J!,\label{eq:moment}\\
+ \sum_{\substack{h\le J\\v\mid h}}a_h&\le J/v&& (v\ge1).
+ \label{eq:slots}
+\end{align}
+The constant and leading coefficients of \(P_J\) have absolute value one.
+\end{lemma}
+\begin{proof}
+Take the coefficients from \eqref{eq:cosine}. For \(0<\rho<1\),
+\[
+ \log|P_J(\rho\e^{\ii\theta})|
+ =-\sum_{m\ge1}\frac{\rho^m}{m}\sum_h a_h\cos(hm\theta)
+ \le a_0\log\frac1{1-\rho}.
+\]
+Also
+\[
+ |1-\e^{\ii t}|\le\frac2{1+\rho}|1-\rho\e^{\ii t}|.
+\]
+Taking \(\rho=1-J^{-1}\), for \(J\ge2\), gives
+\(\log\|P_J\|_\infty\le C(1+\log J)^6\).
+By Parseval,
+\(\normone{P_J}\le\sqrt{\deg P_J+1}\|P_J\|_\infty\), proving
+\eqref{eq:flatnorm}; \(J=1\) is immediate.
+
+The product
+\[
+ Q_J(z)=\prod_h(1+z+\cdots+z^{h-1})^{a_h}
+\]
+has nonnegative integral coefficients.
+Let \(\lambda_i=\#\{h:a_h\ge i\}\), \(1\le i\le a_1\).
+Then \(\sum_i\lambda_i=J\) and
+\(M_J=\prod_i\lambda_i!\), which divides \(J!\) by the multinomial
+formula. Finally, the block of \(v\) indices ending at \(iv\) has
+coefficient sum at least \(va_{iv}\). Adding the disjoint blocks proves
+\eqref{eq:slots}. The remaining assertions follow from the product.
+\end{proof}
+
+\begin{lemma}[Rounding to an exact recurrence]\label{lem:rounding}
+Let \(k,X\) be positive integers and put \(K=1+\log k\).
+Suppose \(1\le d\le k\), \(F\in\R[x]\) has degree at most \(d\), and
+\[
+ \sum_{0\le n<X}\sin^2(\pi F(n))\le k^2.
+\]
+If \(\log X\) grows faster than every fixed power of \(K\), there is an
+integer sequence \(m_n\), defined on all of \(\Z\), with
+\(P_{d+1}(E)m=0\), and an interval \(I\) of \(L\) consecutive integers
+such that
+\begin{equation}\label{eq:roundenergy}
+ \sum_{n\in I}|F(n)-m_n|^2\le k^2/4,\qquad
+ L\ge X\exp(-CK^6).
+\end{equation}
+\end{lemma}
+\begin{proof}
+On the prefix choose \(m_n\) nearest to \(F(n)\), and put
+\(\epsilon_n=F(n)-m_n\).
+Since \(\sin(\pi t)\ge2t\) on \(0\le t\le1/2\),
+\(\sum\epsilon_n^2\le k^2/4\).
+The root of \(P_{d+1}\) at one has order \(d+1\), so
+\(P_{d+1}(E)F=0\).
+The residuals \(P_{d+1}(E)m\) are integers, and the finite convolution
+inequality gives
+\[
+ \sum_n|P_{d+1}(E)m_n|^2
+ \le\normone{P_{d+1}}^2\sum_n\epsilon_n^2
+ \le\normone{P_{d+1}}^2 k^2/4.
+\]
+Write \(D_0=\deg P_{d+1}\). The valid residual positions are
+\(0,\ldots,X-D_0-1\). If \(B_0\) is the number of nonzero residuals,
+then \(B_0\le \normone{P_{d+1}}^2k^2/4\).
+The zero residuals split into at most \(B_0+1\) runs, so one run has
+length at least
+\[
+ \frac{X-D_0-B_0}{B_0+1}.
+\]
+Here \(D_0\le(d+1)^2\) and \(B_0+1\le\exp(CK^6)\).
+The hypothesis on \(X\) therefore gives a run of \(r\) zero residuals,
+beginning at an integer \(s\), with \(r\ge X\exp(-CK^6)\), after
+enlarging \(C\).
+
+Use the \(D_0\) rounded values at \(s,\ldots,s+D_0-1\) to define an
+exact recurrence sequence. The leading coefficient of \(P_{d+1}\)
+is a unit, so the \(r\) zero residual equations force agreement with
+the rounded values throughout \(s,\ldots,s+r+D_0-1\).
+Its constant coefficient is also a unit, so the extension to all of
+\(\Z\) is integral in both directions.
+This whole interval lies in the original prefix. Restricting the
+error estimate to it proves the assertion.
+\end{proof}
+
+\section{Cyclotomic heights on a long interval}\label{sec:heights}
+Write
+\[
+ P(z)=\prod_{i=1}^J(1-z^{h_i}),\qquad
+ 1\le h_i\le H,\qquad D=\deg P.
+\]
+Every sequence annihilated by \(P(E)\) is a sum
+\(\sum_\zeta p_\zeta(n)\zeta^{-n}\), where the roots of unity have
+orders at most \(H\), and the degree of each polynomial is less than
+the multiplicity of its root.
+
+\begin{lemma}[Long-interval separation]\label{lem:gram}
+For such a sum \(x_n\), let \(a_\zeta\) be the leading coefficient of
+a nonzero component of degree \(b\). On an interval of \(L\) consecutive
+integers,
+\begin{equation}\label{eq:gram}
+ \sum_{n\in I}|x_n|^2
+ \ge\frac{L^{2b+1}|a_\zeta|^2}
+ {2(2b+1)\binom{2b}{b}^2},
+\end{equation}
+provided \(L\ge CD(J+1)^3H^2\).
+\end{lemma}
+\begin{proof}
+Translate the interval to start at zero.
+Let \(\ell_j\) be the shifted Legendre polynomials orthonormal on
+\([0,1]\), with leading coefficient
+\(\sqrt{2j+1}\binom{2j}{j}\).
+Writing \(\ell_j(x)=\sqrt{2j+1}\,\mathsf P_j(2x-1)\) in terms of the usual
+Legendre polynomial, one has
+\[
+ \|\ell_j\|_\infty\le\sqrt{2j+1},\qquad
+ \|\ell_j'\|_\infty\le j(j+1)\sqrt{2j+1}.
+\]
+For example, the derivative bound follows by summing
+\(\mathsf P_j'=\sum_{0\le r<j,\ j-r\ {\rm odd}}(2r+1)\mathsf P_r\) and using
+\(|\mathsf P_r|\le1\) on \([-1,1]\).
+Products of two basis polynomials of degrees less than \(J\)
+therefore have supremum and total variation \(O((J+1)^3)\).
+
+Use the basis \(\ell_j(n/L)\zeta^{-n}\), with the appropriate degrees
+at each root. Its dimension is at most \(D\).
+At a common frequency, the normalized discrete inner product differs
+from the continuous one by \(O((J+1)^3/L)\).
+Distinct root frequencies are separated modulo one by at least \(H^{-2}\).
+Summation by parts and the geometric-series bound therefore give
+off-diagonal entries \(O((J+1)^3H^2/L)\).
+The row-sum estimate shows that the normalized Gram matrix has all
+eigenvalues at least \(1/2\) under the stated length condition.
+The coefficient of the top basis vector in the chosen component is
+\[
+ \frac{a_\zeta L^b}{\sqrt{2b+1}\binom{2b}{b}}.
+\]
+Its contribution to the Gram lower bound gives \eqref{eq:gram}.
+Translation multiplies the top coefficient by a number of absolute
+value one and does not change this estimate.
+\end{proof}
+
+\begin{lemma}[Integer recurrence height]\label{lem:integerheight}
+If a nonzero integral sequence \(x\) is annihilated by \(P(E)\), and
+\(b\) is its largest component degree, then
+\begin{equation}\label{eq:integerheight}
+ (2b+1)\log L\le
+ \log\!\left(\sum_{n\in I}|x_n|^2\right)
+ +CJ\log(2H(J+1))
+\end{equation}
+whenever \(L\) satisfies Lemma~\ref{lem:gram}.
+\end{lemma}
+\begin{proof}
+Translate the interval to start at zero.
+The recurrence first gives a generating-function denominator equal
+to the reciprocal of \(P\). Since
+\(z^D P(1/z)=(-1)^J P(z)\), a change of sign in the numerator writes
+the generating function as \(A/P\), with \(A\in\Z[z]\) of degree less
+than \(D\).
+Cancel the monic common cyclotomic factors. Gauss's lemma gives
+\(A_0/C\) with relatively prime integral polynomials. Choose a primitive root \(\zeta\) at which
+\(C\) has multiplicity \(b+1\).
+The absolute value of the top component coefficient is
+\[
+ \frac{|A_0(\zeta)|}{|C_{\rm reg}(\zeta)|\,b!},
+ \qquad C_{\rm reg}(z)=C(z)/(z-\zeta)^{b+1}.
+\]
+The numerator is a nonzero algebraic integer, and its geometric mean
+over primitive conjugates is at least one.
+
+If \(P=GC\), then \(P_{\rm reg}=G_{\rm reg}C_{\rm reg}\).
+Regularized values of integral polynomials are algebraic integers:
+successive division by the monic factor \(z-\zeta\) preserves algebraic
+integrality. Thus the geometric mean of \(|G_{\rm reg}(\zeta)|\)
+is at least one. Each vanishing binomial in \(P\) contributes a derivative
+of absolute value at most \(H\), and each nonvanishing one contributes
+at most two. The geometric mean of \(|C_{\rm reg}(\zeta)|\) is consequently
+at most \((2H)^J\). Some conjugate top coefficient has absolute value
+at least \(((2H)^J J!)^{-1}\).
+Insert it into \eqref{eq:gram}, use \(\binom{2b}{b}\le4^b\), and
+take logarithms.
+\end{proof}
+
+\begin{lemma}[Refined cyclotomic height]\label{lem:refined}
+Let \(K=1+\log k\), \(Z=\log X\), with \(Z\) growing faster than every
+fixed power of \(K\). Suppose \(2\le q\mid k!(k+1)!\), \(\gcd(u,q)=1\),
+and \(F\in\Q[x]\) has degree at most \(d\), \(1\le d\le k\), with
+\[
+ qF(n)\in\Z,\qquad qF(n)\equiv un^k\pmod q\quad(n\in\Z).
+\]
+If its sine energy on \(0\le n<X\) is at most \(k^2\), there is a
+nonzero rational sequence \(\epsilon\), annihilated by \(P_{d+1}(E)\),
+such that \(q\epsilon\) is integral and congruent to \(un^k\pmod q\)
+globally. If \(h_t\) denotes its multiplicity at primitive \(t\)th
+roots, then
+\begin{align}
+ h_t&\le\frac{CdK}{tZ}\quad(t\ge2),\label{eq:nontrivialheight}\\
+ h_1&\le\frac{C(\log q+dK)}Z.\label{eq:oneheight}
+\end{align}
+In particular a multiplicity vanishes if its upper bound is less than one.
+\end{lemma}
+\begin{proof}
+Apply Lemma~\ref{lem:rounding} and put \(\epsilon=F-m\).
+This gives all the integrality, congruence, and energy assertions,
+with energy at most \(k^2/4\) on an interval of length
+\(L\ge X\exp(-CK^6)\). The sequence is nonzero by its congruence at
+\(n=1\). Its least annihilator is an integral product of cyclotomic
+factors dividing \(P_{d+1}\), by cancellation in the generating
+function of \(q\epsilon\).
+
+Put \(J=d+1\). At a nontrivial root the components of \(\epsilon\)
+are the negatives of those of the integer sequence \(m\), since \(F\)
+contributes only at one. Fix primitive order \(t\ge2\) with
+\(h_t=b+1>0\). We refine the denominator estimate in the preceding proof.
+There are at most \(J/t\) vanishing factors, by \eqref{eq:slots}, and
+their derivatives have absolute value at most \(J\).
+
+For a nonvanishing factor \(1-\zeta^h\), put \(l=t/\gcd(t,h)>1\).
+Its geometric mean over primitive \(t\)th roots is
+\(\Phi_l(1)^{1/\varphi(l)}\).
+This is one unless \(l=p^a\) is a prime power, when its logarithm is
+\(\log p/\varphi(p^a)\). Such factors have \(t/p^a\mid h\);
+by \eqref{eq:slots} their number with multiplicity is at most \(Jp^a/t\).
+The total logarithmic contribution of nonvanishing factors is thus
+at most
+\[
+ \sum_{p^a\mid t}\frac{Jp^a}t
+       \frac{\log p}{\varphi(p^a)}
+ \le\frac{2J}t\sum_{p^a\mid t}\log p
+ =\frac{2J}t\log t.
+\]
+Cancellation decreases the geometric-mean denominator bound, as above,
+and \(b!\le J^{J/t}\). Some conjugate top coefficient therefore satisfies
+\[
+ |a_\zeta|\ge\exp\!\left(-C(J/t)\log(2J)\right).
+\]
+The interval-length condition in Lemma~\ref{lem:gram} is polynomial in
+\(k\), and hence holds here. It follows that
+\[
+ (2h_t-1)\log L\le C(J/t)K+C\log k.
+\]
+If \(h_t>0\), then \(t\le J\), so \(J/t\ge1\).
+Now \(2h_t-1\ge h_t\), \(J\le2d\), and \(\log L\sim Z\).
+This proves \eqref{eq:nontrivialheight} without an additive constant.
+
+Apply Lemma~\ref{lem:integerheight} to \(q\epsilon\) for the remaining
+bound. Its energy is at most \(q^2k^2/4\), and its largest component
+degree is at least \(h_1-1\). This gives \eqref{eq:oneheight};
+in particular the term involving \(\log q\) is not discarded.
+\end{proof}
+
+\section{Exact arithmetic of polynomial reductions}\label{sec:arithmetic}
+
+For \(0\le d<k\), define
+\[
+ A_j(k)=\Delta^j(x^k)\big|_{x=0}=j!\,S(k,j),\qquad
+ G_d(k)=\gcd\{A_j(k):d<j\le k\},
+\]
+where \(S(k,j)\) is a Stirling number of the second kind.
+In particular \(G_0(k)=1\), since \(A_1(k)=1\).
+The Newton expansion shows that
+\begin{equation}\label{eq:newtoncriterion}
+ q\mid G_d(k)
+ \quad\Longleftrightarrow\quad
+ \begin{gathered}
+ \text{there exists an integer-valued }P\in\Q[x],\ \deg P\le d,\\
+ n^k\equiv P(n)\pmod q\quad\text{for every }n\in\Z.
+ \end{gathered}
+\end{equation}
+Indeed, the forward differences above degree \(d\) must vanish modulo
+\(q\); conversely, the truncation
+\(\sum_{j=0}^d A_j(k)\binom{x}{j}\) supplies \(P\).
+This formulation applies on all integers, including negative ones.
+
+\begin{lemma}[A product bound for the reduction modulus]\label{lem:product}
+For \(1\le d<k\), put
+\[
+ F_{k,j}=\gcd_{a\in\Z_{\ge0}}(a^k-a^j)\quad(1\le j\le d).
+\]
+Then
+\begin{equation}\label{eq:product}
+ G_d(k)\mid\prod_{j=1}^d F_{k,j},\qquad
+ F_{k,j}\mid 2(k-j)D(k-j).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Start with \(q_d=G_d(k)\), and recursively put
+\(q_{j-1}=\gcd(q_j,A_j(k))\).
+Then \(q_j\mid G_j(k)\), and the canonical truncation
+\[
+ P_j(x)=\sum_{\ell=0}^j A_\ell(k)\binom{x}{\ell}
+\]
+is congruent to \(x^k\pmod {q_j}\) on the integers.
+For every nonnegative integer \(a\), the polynomial
+\(P_j(ax)-a^kP_j(x)\) is integer-valued and divisible by \(q_j\) at
+every integer. Its \(j\)th forward difference is
+\(A_j(k)(a^j-a^k)\). Thus
+\[
+ q_j/q_{j-1}\mid F_{k,j}.
+\]
+Since \(q_0=1\), multiplication gives the first assertion.
+
+Write \(h=k-j>0\). A prime \(p\) divides \(F_{k,j}\) exactly when
+\(p-1\mid h\). Necessity follows by testing units modulo \(p\);
+sufficiency also includes nonunits, because \(j\ge1\).
+Testing \(a=p\) bounds \(v_p(F_{k,j})\) by \(j\).
+For odd \(p\), testing \(a=1+p\) bounds it by \(1+v_p(h)\).
+For \(p=2\), testing \(a=3\) bounds it by \(2+v_2(h)\).
+These lifting identities show that \(F_{k,j}\mid2hD(h)\).
+Taking logarithms gives
+\begin{equation}\label{eq:logG}
+ \log G_d(k)\le d\log(2k)+\sum_{j=1}^d\log D(k-j).
+\end{equation}
+\end{proof}
+
+We next control a prime-power modulus from the cyclotomic multiplicities
+of an annihilator. Here \(v_p\) denotes the \(p\)-adic valuation.
+
+\begin{lemma}[Dilation of an integral recurrence]\label{lem:dilation}
+Let \(p\) be prime, \(e\ge1\), and
+\[
+ B(z)=(z-1)^{m_0}\prod_{a=1}^A\Phi_{p^a}(z)^{m_a},
+ \qquad 0\le m_a\le k\quad(0\le a\le A).
+\]
+If \(B(E)n^k\equiv0\pmod {p^e}\) for all \(n\in\Z\), then
+\begin{equation}\label{eq:dilation}
+ e\le C\left\{\frac{m_0}{p-1}
+       +\sum_{a=1}^A(a+1)m_a
+       +(A+1)(1+\log_p(k+1))\right\}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Put \(D_B=\deg B\). The rational \(B\)-recurrence sequences on
+\(\Z\) have an integral lattice identified with \(\Z^{D_B}\) by their
+first \(D_B\) entries, since the leading and constant coefficients
+of \(B\) are units.
+For a positive integer \(g\) prime to \(p\), the dilation
+\(S_g(x)_n=x_{gn}\) preserves this space and its integral lattice:
+on the complex basis \(n^j\zeta^n\), it permutes primitive roots of a
+fixed \(p\)-power order and multiplies the degree-\(j\) vector by \(g^j\).
+
+Extend \(0^k,1^k,\ldots,(D_B-1)^k\) by the recurrence to an integral
+sequence \(y\). The assumed congruence makes \(y_n\equiv n^k\pmod {p^e}\)
+for all integers \(n\). The cases \(D_B=0,1\) are impossible, because
+the values at zero and one are respectively zero and one.
+Thus the initial vector contains a unit, and
+\[
+ S_g y\equiv g^k y\pmod {p^e}.
+\]
+If \(\chi_g\) is the characteristic polynomial of this integral
+matrix, Cayley--Hamilton gives
+\begin{equation}\label{eq:characteristic}
+ p^e\mid\chi_g(g^k).
+\end{equation}
+
+For odd \(p\), choose \(g\) primitive modulo \(p^2\), hence modulo
+every \(p^a\). The primitive \(p^a\)th roots form one cycle of length
+\(\varphi(p^a)\). Their degree-\(j\) characteristic factor is
+\(T^{\varphi(p^a)}-g^{j\varphi(p^a)}\), for \(0\le j<m_a\).
+At \(T=g^k\), its valuation is
+\[
+ a+v_p(k-j).
+\]
+The root-one factor \(T-g^j\) has valuation zero unless \(p-1\mid k-j\);
+in that case its valuation is \(1+v_p(k-j)\).
+None of these factors vanishes, since \(j<m_a\le k\).
+
+For any interval of \(m\le k\) consecutive positive integers ending
+at \(k\), counting multiples of \(p^\nu\) gives
+\begin{equation}\label{eq:valuationinterval}
+ \sum_{j=0}^{m-1}v_p(k-j)
+ \le \frac m{p-1}+\log_p(k+1).
+\end{equation}
+For the root-one contribution, restrict to the single residue class
+\(k-j\equiv0\pmod {p-1}\), and divide its terms by \(p-1\).
+The resulting consecutive integers number at most \(m_0/(p-1)+1\).
+Applying \eqref{eq:valuationinterval} gives a contribution at most
+\(C m_0/(p-1)+C(1+\log_p(k+1))\).
+The other cycles contribute at most
+\(\sum_a(a+1)m_a+A\log_p(k+1)\).
+Equation~\eqref{eq:characteristic} proves the claim for odd \(p\).
+
+For \(p=2\), take \(g=5\). There are at most two cycles at each
+primitive \(2^a\)th order, of length \(2^{a-2}\) for \(a\ge3\);
+the orders two and four are handled directly.
+The valuation of each factor is at most
+\(C(a+1+v_2(k-j))\).
+The root-one contribution is \(2+v_2(k-j)\).
+Summing with \eqref{eq:valuationinterval} proves the same bound.
+\end{proof}
+
+\begin{lemma}[One contraction step]\label{lem:contraction}
+Under the hypotheses of Lemma~\ref{lem:refined}, if the sine energy is
+at most \(k^2\), there is an integer \(M\ge1\) satisfying
+\begin{equation}\label{eq:contraction}
+ M\le \frac{CK^2(\log q+dK)}Z+CK^4
+\end{equation}
+such that, whenever \(M<k\), one has \(q\mid G_M(k)\).
+All constants are uniform for \(1\le d\le k\).
+\end{lemma}
+\begin{proof}
+Choose
+\[
+ T=C_0\frac{\log q+dK}Z
+\]
+large enough that Lemma~\ref{lem:refined} gives \(h_1\le T\) and
+\(h_{p^a}\le T/p^a\). These multiplicities are less than \(k\) for
+large \(k\), since \(\log q=O(kK)\) and \(Z\) dominates powers of \(K\).
+
+Fix \(p^e\Vert q\). Factor the integral annihilator of \(\epsilon\)
+as \(BC\), where \(B\) contains precisely its root-one and
+\(p\)-power cyclotomic factors. Then \(C(1)\) is a unit modulo \(p\):
+\(\Phi_t(1)\) is one unless \(t\) is a prime power, and the prime-power
+factors in \(C\) correspond to primes other than \(p\).
+Put \(c_0=C(1)\) and write \(C(1+\Delta)=c_0+\Delta R(\Delta)\).
+On polynomial sequences of degree at most \(k\) modulo \(p^e\),
+\(\Delta^{k+1}=0\). An explicit inverse is therefore
+\[
+ c_0^{-1}\sum_{j=0}^{k}
+       \bigl(-c_0^{-1}\Delta R(\Delta)\bigr)^j.
+\]
+Because \(B(E)C(E)(q\epsilon)=0\) and \(q\epsilon\equiv un^k\pmod {p^e}\),
+the unit \(u\) may be cancelled.
+Apply the displayed inverse, which commutes with \(B(E)\), to obtain
+\[
+ B(E)n^k\equiv0\pmod {p^e}.
+\]
+Apply Lemma~\ref{lem:dilation}. The largest \(a\) is at most
+\(\log_p(d+1)\), and
+\(\sum_{a\ge1}(a+1)p^{-a}=O((p-1)^{-1})\). Hence
+\begin{equation}\label{eq:primeexponent}
+ e\le CT/(p-1)+CK^2.
+\end{equation}
+If \(p>T\), all nontrivial \(p\)-power roots are absent.
+Then \(B=(z-1)^{h_1}\); necessarily \(h_1\ge1\), and
+\[
+ p^e\mid G_{h_1-1}(k).
+\]
+
+Set \(M=\lceil C_1(T+K^2)K^2\rceil\), with \(C_1\) fixed and sufficiently
+large. For \(p\le T\), the elementary bound
+\(v_p(M!)\ge M/(2p)\), valid here since \(M\ge2p\), dominates
+\eqref{eq:primeexponent}. Thus the part of \(q\) supported on primes
+at most \(T\) divides \(M!\).
+Now assume \(M<k\), as in the conclusion.
+The remaining prime powers divide \(G_M(k)\), because \(M\ge h_1\)
+and \(G_{h_1-1}(k)\mid G_M(k)\).
+Each \(A_j(k)=j!S(k,j)\), \(j>M\), is divisible by \(M!\).
+Thus the small-prime part also divides \(G_M(k)\).
+The two parts are coprime, so \(q\mid G_M(k)\).
+The chosen value of \(M\) satisfies \eqref{eq:contraction}.
+\end{proof}
+
+\section{Good degrees and the exact-center estimate}\label{sec:centers}
+
+Fix throughout
+\begin{equation}\label{eq:parameters}
+ c=\frac25,\qquad a=\frac1{10},\qquad \beta=\frac1{100}.
+\end{equation}
+
+\begin{lemma}[Simultaneous degree selection]\label{lem:selection}
+For every sufficiently large dyadic \(Y\), all but \(o(Y)\) integers
+\(k\in[Y,2Y]\) satisfy
+\begin{equation}\label{eq:good}
+ \log D(k-j)\le \exp(a\mathcal L(Y))
+ \quad\text{for }1\le j\le\lceil(2Y)^\beta\rceil.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Let \(\tau\) be the divisor function and \(d_z\) the ordered
+\(z\)-fold divisor function. For every integer \(m\ge1\),
+\[
+ \tau(n)^m\le d_{2^m}(n).
+\]
+For a prime power exponent \(b\), this follows by induction from
+\[
+ \frac{\binom{b+2z-1}{b}}{\binom{b+z-1}{b}}
+ =\prod_{i=0}^{b-1}\frac{2z+i}{z+i}\ge b+1\qquad(z\ge1);
+\]
+each factor increases with \(z\), and the product at \(z=1\) is \(b+1\).
+Multiplicativity completes the proof.
+Counting ordered factorizations and summing the first \(z-1\) factors
+harmonically gives, with no constant depending on \(z\),
+\begin{equation}\label{eq:momentbound}
+ \sum_{n\le U}d_z(n)\le U(1+\log U)^{z-1}.
+\end{equation}
+Since a prime predecessor divisor of \(n\) is at most \(n+1\),
+\(\log D(n)\le\tau(n)\log(n+1)\).
+
+Take
+\[
+ m=\left\lfloor\frac{\log\log Y-3\log\log\log Y}{\log2}\right\rfloor,
+ \qquad
+ B_Y=\frac{\exp(a\mathcal L(Y))}{\log(2Y+1)}.
+\]
+By \eqref{eq:momentbound} and Markov's inequality, the number of
+\(n\le2Y\) with \(\log D(n)>\exp(a\mathcal L(Y))\) is at most
+\[
+ 2Y(1+\log(2Y))^{2^m-1}B_Y^{-m}
+   =Y^{1-a/\log2+o(1)}.
+\]
+Indeed \(2^m\le\log Y/(\log\log Y)^3\), so the positive logarithmic
+error is \(o(\log Y)\), while
+\(m\log B_Y=(a/\log2+o(1))\log Y\).
+The union over at most \(O(Y^\beta)\) shifts has size
+\(Y^{1-a/\log2+\beta+o(1)}=o(Y)\), because
+\(\beta<a/\log2\). All shifted arguments are positive for large \(Y\).
+\end{proof}
+
+Let \(\mathcal G\) be the union of the sets selected in
+Lemma~\ref{lem:selection}, and for \(k\in\mathcal G\) put
+\begin{equation}\label{eq:NX}
+ K=1+\log k,\qquad
+ N=\left\lceil\exp\bigl(\exp(c\mathcal L(k))\bigr)\right\rceil,\qquad
+ X=\lfloor N\exp(-B K^6)\rfloor ,
+\end{equation}
+where \(B>0\) is any fixed constant. Then
+\begin{equation}\label{eq:scales}
+ Z:=\log X\sim\log N\sim\exp(c\mathcal L(k)),\qquad
+ K^A=o(Z)\ (A\text{ fixed}),\qquad \log N=o(k).
+\end{equation}
+In particular \(N\) and \(X\) exceed every fixed power of \(k\).
+
+We will also use the following fixed-parameter consequence of
+Shiu's short-interval estimate~\cite{Shiu}, in the form stated by
+Nair and Tenenbaum~\cite[Introduction]{NT}:
+\begin{equation}\label{eq:shiu}
+ \sum_{j=1}^d\tau(k-j)\le C_\beta d\log k
+ \quad(k^\beta\le d\le k/3).
+\end{equation}
+For clarity, its parameters are fixed: apply the theorem to the
+multiplicative function \(\tau=\tau_2\), modulus one, and interval
+\((k-d-1,k-1]\), with exponent \(\beta/2\).
+This interval has length \(d\) and lies at height comparable to \(k\).
+The hypotheses \(\tau(p^\nu)=\nu+1\le2^\nu\) and
+\(\tau(n)\ll_\varepsilon n^\varepsilon\) hold.
+The resulting bound is
+\(O_\beta(d(\log k)^{-1}\exp(\sum_{p\le k}2/p))
+=O_\beta(d\log k)\).
+Neither the function nor the interval exponent varies with \(k\).
+
+\begin{proposition}[Exact-center energy]\label{prop:center}
+For all sufficiently large \(k\in\mathcal G\), and every reduced
+fraction \(u/q\) with \(2\le q\mid k!(k+1)!\),
+\begin{equation}\label{eq:center}
+ \sum_{0\le n<X}\sin^2(\pi un^k/q)>k^2.
+\end{equation}
+Here \(X\) may be chosen as in \eqref{eq:NX} for any fixed \(B>0\).
+\end{proposition}
+\begin{proof}
+Suppose the energy is at most \(k^2\). Begin with
+\(F(x)=ux^k/q\), of degree \(d=k\).
+Lemma~\ref{lem:contraction} and \(\log q=O(kK)\) give a new degree
+\[
+ M\le CkK^3/Z+CK^4=o(k).
+\]
+In particular \(M<k/3\), and \(q\mid G_M(k)\).
+By \eqref{eq:newtoncriterion}, replace \(F\) by
+\[
+ \frac uq\sum_{j=0}^M A_j(k)\binom{x}{j}.
+\]
+Its difference from \(un^k/q\) is integral at every integer, so the
+sine energy has not changed. The modulus \(q\) and prefix \(X\) also
+remain unchanged.
+Every subsequent invocation of the rounding lemma starts again on this
+same prefix, so its interval-length loss is not accumulated across steps.
+
+Whenever \(k^\beta\le d\le k/3\) and \(q\mid G_d(k)\),
+\eqref{eq:logG}, \(\log D(v)\le\tau(v)\log(v+1)\), and
+\eqref{eq:shiu} give
+\[
+ \log q\le C_\beta dK^2.
+\]
+A further contraction therefore gives
+\[
+ M\le C_\beta dK^4/Z+CK^4<d/2
+\]
+for large \(k\), uniformly in this range.
+After finitely many steps the degree is at most \(k^\beta\).
+
+Choose the dyadic \(Y\) for which \eqref{eq:good} holds for \(k\).
+Put \(E_Y=\exp(a\mathcal L(Y))\).
+For every \(1\le d\le k^\beta\), the same bound \eqref{eq:good} gives
+\[
+ \log q\le d\log(2k)+dE_Y.
+\]
+The contraction estimate now reads
+\begin{equation}\label{eq:smallcontraction}
+ M\le\rho_k d+C_0K^4,\qquad
+ \rho_k=\frac{C_2K^2(K+E_Y)}Z\longrightarrow0.
+\end{equation}
+The constants are fixed. Since \(Y\le k\le2Y\),
+\(\mathcal L(Y)=\mathcal L(k)+O(1/\log\log k)\).
+Thus \(E_Y=\exp(a\mathcal L(k)+o(1))\), whereas
+\(Z\sim\exp(c\mathcal L(k))\); the inequality \(a<c\) gives
+\(\rho_k\to0\), uniformly over the selected degrees.
+Take \(k\) large enough that \(\rho_k<1/4\).
+While \(d>2C_0K^4\), this gives \(M<3d/4<k\), so the same exact
+replacement remains valid.
+Eventually \(q\mid G_d(k)\) with \(1\le d\le2C_0K^4\).
+A reduction to degree zero would already give \(q\mid G_0(k)=1\),
+which is impossible. At the terminal positive degree,
+\begin{equation}\label{eq:smallq}
+ \log q\le CK^4(K+E_Y)=o(Z).
+\end{equation}
+Thus \(q=X^{o(1)}\).
+
+Return to the original phase, not to an individual cyclotomic component.
+Each full block of \(q\) consecutive inputs contains an \(n\equiv1\pmod q\).
+Since \(\gcd(u,q)=1\),
+\[
+ \sin^2(\pi u/q)\ge4\dist{u/q}^2\ge4/q^2.
+\]
+Consequently the original energy is at least
+\[
+ \frac{4\lfloor X/q\rfloor}{q^2}
+ \ge\frac{2X}{q^3}=X^{1-o(1)}>k^2,
+\]
+by \eqref{eq:scales} and \eqref{eq:smallq}. This is the desired contradiction.
+\end{proof}
+
+\section{From rational centers to collision estimates}\label{sec:collision}
+
+Retain \(k\in\mathcal G\) and \(N\) from \eqref{eq:NX}. Put
+\[
+ S=512\left\lfloor\frac{\lfloor N/k\rfloor}{512}\right\rfloor,\quad
+ \mathcal V=\{N-S+1,\ldots,N\},\quad
+ R=\{1,\ldots,N-S\}\setminus\{2,\ldots,257\}.
+\]
+Thus \(\mathcal V\) is the reserved set of bases and \(R\) is the available
+initial population. Write
+\[
+ M_R=|R|,\qquad t=\lfloor N/8192\rfloor,\qquad \ell=128.
+\]
+For \(b\in\mathcal V\), let \(q_b=b^k\), and define
+\begin{align*}
+ D_b(\alpha)&=\sum_{n\in R}\sin^2(\pi\alpha n^k),\\
+ F_b(h)&=\frac1{M_R}\sum_{n\in R}
+           \cos^2(\pi hn^k/q_b)
+       =1-\frac{D_b(h/q_b)}{M_R}.
+\end{align*}
+We will prove
+\begin{equation}\label{eq:collision}
+ \sup_{b\in\mathcal V}\sum_{h=1}^{q_b-1}F_b(h)^t=o(1).
+\end{equation}
+Notice that \(M_R\sim N\) and \(t/M_R\ge1/16384\) for large \(k\).
+Also \(S\le N/k\), so \(b/N\ge1-1/k\) for \(b\in\mathcal V\).
+Since \((1-1/k)^k\to\e^{-1}>1/4\), we have
+\(b^k\ge N^k/4\) uniformly over the reserved bases.
+
+\begin{lemma}[A common rational approximation]\label{lem:inverse}
+Let \(A>0\) be fixed. There are a constant \(C\) and an integer
+\(B_k\mid k!(k+1)!\), independent of \(\alpha\), such that
+\[
+ D_b(\alpha)\le Ak\log N
+ \quad\Longrightarrow\quad
+ \left|\alpha-\frac u{B_k}\right|
+ \le N^{-k}\exp(CkK^6)
+\]
+for some integer \(u\). The assertion is uniform in \(b\in\mathcal V\).
+\end{lemma}
+\begin{proof}
+The population is independent of \(b\). Add back the at most 256 excluded
+terms and use the prefix \(0\le n<N-S\); the term at zero vanishes.
+Its energy \(E_0\) is at most \(Ak\log N+256\).
+
+Take \(P=P_{k+1}=(1-z)^{k+1}Q\) from Lemma~\ref{lem:flat}, and
+\(M=Q(1)\mid(k+1)!\).
+Round \(f(n)=\alpha n^k\) to integers \(m_n\).
+As in Lemma~\ref{lem:rounding}, the number of nonzero integer residuals
+\(P(E)m_n\) is at most \(\normone P^2E_0/4\).
+We have \(\log(1+E_0)=O(K)\), including when \(E_0=0\).
+The zero-run count in Lemma~\ref{lem:rounding} therefore provides
+\(L\ge N\exp(-C_1K^6)\) consecutive valid residual positions,
+say \(s,\ldots,s+L-1\).
+
+Put \(D_0=\deg P\). As \(\deg Q=D_0-k-1\), the integers
+\(b_n=Q(E)m_n\) are defined for every
+\(s\le n\le s+L+k\). On the \(L\) residual positions,
+\(\Delta^{k+1}b_n=0\).
+Successive finite differences consequently show that all these
+values agree with one rational polynomial of degree at most \(k\).
+Its Newton coefficients about the integer \(s\) are integral, so
+its coefficient of \(n^k\) is \(u/k!\) for some \(u\in\Z\).
+The polynomial \(Q(E)f\) has coefficient \(M\alpha\) at \(n^k\).
+Since \(Q\) has nonnegative coefficients of sum \(M\), the finite
+convolution inequality bounds the squared error of their difference,
+on the first \(L\) positions of this interval, by \(M^2E_0/4\).
+
+Take \(H=\lfloor L/(2k)\rfloor\ge L/(4k)\).
+The \(k\)th difference with step \(H\) of this error polynomial is the
+constant
+\[
+ k!H^kM\left(\alpha-\frac u{k!M}\right).
+\]
+There are at least \(L/2\) valid starting points. The difference operator
+has coefficient norm \(2^k\), so
+\[
+ \frac L2(k!H^kM)^2
+ \left|\alpha-\frac u{k!M}\right|^2
+ \le4^kM^2E_0/4.
+\]
+Using \(k!\ge(k/\e)^k\), we obtain
+\[
+ \left|\alpha-\frac u{k!M}\right|
+ \le(8\e)^k L^{-k}\sqrt{\frac{E_0}{2L}}
+ \le N^{-k}\exp(CkK^6).
+\]
+Take \(B_k=k!M\). All filters and this denominator depend only on \(k\).
+\end{proof}
+
+\begin{lemma}[Small symmetric numerators]\label{lem:smallnumerators}
+Put \(K_* =10^{10}(1+\log N/\log k)\). Uniformly for \(b\in\mathcal V\),
+\[
+ \sum_{\substack{1\le h<q_b\\
+ \min(h,q_b-h)\le (b/(K_*k^2))^k}}F_b(h)^t=o(1).
+\]
+\end{lemma}
+\begin{proof}
+By symmetry take \(a=\min(h,q_b-h)\) and put \(r=ba^{-1/k}\).
+Then \(K_*k^2\le r\le b\le N\), and the sine phase is \((n/r)^k\).
+
+If \(r>N/2\), use the interval
+\[
+ [r(1/8)^{1/k},\,r(1/4)^{1/k}].
+\]
+It has \(\gg N/k\) integer points, all in \(R\) for large \(k\):
+its upper endpoint is at most \(N4^{-1/k}<N-S\), and its lower
+endpoint exceeds 257. On it the sine square is at least \(1/8\).
+Thus \(D_b(h/q_b)\gg N/k\).
+
+If \(r\le N/2\), set \(Y_r=\lfloor r/(1000k)\rfloor\).
+For \(1\le j\le Y_r\), use the disjoint intervals
+\[
+ I_j=[r(j+1/8)^{1/k},\,r(j+1/4)^{1/k}].
+\]
+The mean value theorem gives
+\[
+ |I_j|\ge \frac r{16k(j+1)}>2.
+\]
+Their integer points lie in \(R\).
+Indeed their lower endpoints exceed 257, while their upper endpoints
+are at most \(r(Y_r+1)^{1/k}\le3N/4\) eventually, because
+\(\log N=o(k)\). Each interval contains at least half its length in
+integers, with sine square at least \(1/8\). Therefore
+\[
+ D_b(h/q_b)
+ \ge\frac r{256k}\sum_{j=1}^{Y_r}\frac1{j+1}
+ \ge\frac{r\log(Y_r+1)}{512k}
+ \ge\frac{K_*k\log k}{1024}.
+\]
+The first case satisfies the same final bound, since
+\(N/k\gg K_*k\log k\).
+
+Now \(F_b(h)^t\le\exp(-D_b(h/q_b)/16384)\).
+There are fewer than \(N^k\) frequencies, and
+\(K_*>2^{24}\log N/\log k\) by a fixed factor. Hence their total
+contribution is bounded by
+\[
+ N^k\exp\!\left(-\frac{K_*k\log k}{2^{24}}\right)=o(1).
+\]
+\end{proof}
+
+\begin{proposition}\label{prop:collision}
+The uniform collision estimate \eqref{eq:collision} holds.
+\end{proposition}
+\begin{proof}
+Choose a fixed \(A\) sufficiently large.
+Frequencies with \(D_b(h/q_b)>Ak\log N\) have total contribution at most
+\[
+ N^k\exp(-Ak\log N/16384)=o(1).
+\]
+Every remaining frequency is in an arc
+\[
+ \left|\frac h{q_b}-\frac u{B_k}\right|\le\delta,\qquad
+ \delta=N^{-k}\exp(CkK^6),
+\]
+by Lemma~\ref{lem:inverse}.
+We have \(\log B_k=O(kK)\), and \(\delta B_k=o(1)\).
+Thus at most \(B_k+2\) centers are relevant in or adjacent to \([0,1]\).
+Each arc contains at most \(2q_b\delta+2\) points of the actual grid.
+The total number of grid points in these arcs is therefore at most
+\(\exp(C_3kK^6)\).
+Consequently those among them with \(D_b\ge A_3kK^6\) also contribute
+\(o(1)\), for a fixed \(A_3>2\cdot16384C_3\).
+
+It remains to consider \(D_b<A_3kK^6\).
+Choose the constant \(B\) in \eqref{eq:NX} larger than \(C+2\).
+On the prefix \(n<X\), replacing the frequency by its center changes
+the square root of the sine energy by at most
+\[
+ \pi\delta X^k\sqrt X
+ \le \pi\exp(-(B-C)kK^6+\tfrac12\log X)=o(1).
+\]
+If the center is not an integer, its reduced denominator is a divisor
+of \(B_k\), and Proposition~\ref{prop:center} gives center energy
+greater than \(k^2\). Removing the at most 256 auxiliary terms leaves
+\[
+ D_b(h/q_b)\ge k^2/2-256
+\]
+for large \(k\), contradicting \(D_b<A_3kK^6\).
+
+If the center is an integer, then
+\(\min(h,q_b-h)\le q_b\delta\).
+Since \(\log N\) dominates \(K^6\) and
+\(\log(K_*k^2)=O(K)\), we have
+\(\delta\le(K_*k^2)^{-k}\) eventually.
+These frequencies lie in the range of Lemma~\ref{lem:smallnumerators},
+whose total contribution is \(o(1)\).
+All cases have now been covered.
+\end{proof}
+
+\section{A represented interval and the infinite tail}\label{sec:completion}
+
+The last step converts \eqref{eq:collision} into ordinary subset sums,
+with no repetition of bases.
+
+\begin{lemma}\label{lem:groups}
+For all sufficiently large \(k\in\mathcal G\), there are \(\ell=128\)
+pairwise disjoint sets of bases, all at most \(N\), whose power
+subset-sum sets \(A_1,\ldots,A_\ell\) satisfy
+\begin{equation}\label{eq:groups}
+ |A_i|\ge sN^k/16,\qquad A_i\subseteq[0,2sN^k],
+ \qquad s=S/512.
+\end{equation}
+No \(A_i\) is contained in an arithmetic progression of integer
+difference greater than one.
+\end{lemma}
+\begin{proof}
+Choose \(\ell\) disjoint random \(t\)-subsets \(C_i\) of \(R\), uniformly.
+This is possible since \(\ell t<M_R\), and each marginal is a uniform
+\(t\)-subset. Independence between the \(C_i\) is not required.
+
+For a fixed \(C=C_i\), choose each subset \(U\subseteq C\) with
+probability \(2^{-t}\); equivalently, include its bases independently
+with probability \(1/2\). Let
+\[
+ \mu_b(x)=2^{-t}\#\left\{U\subseteq C:
+             \sum_{n\in U}n^k\equiv x\pmod {q_b}\right\}.
+\]
+This is a distribution on residues, not the uniform distribution
+on distinct represented values. Its Fourier transform is
+\[
+ \widehat\mu_b(h)=
+ \prod_{n\in C}\frac{1+\exp(2\pi\ii hn^k/q_b)}2.
+\]
+Finite Fourier orthogonality therefore gives the collision excess
+\[
+ q_b\sum_x\mu_b(x)^2-1
+ =\sum_{h=1}^{q_b-1}\prod_{n\in C}\cos^2(\pi hn^k/q_b).
+\]
+For \(x_n=\cos^2(\pi hn^k/q_b)\), the expectation of the product over
+a uniform \(t\)-subset equals \(e_t((x_n)_{n\in R})/\binom{M_R}{t}\),
+where \(e_t\) is the elementary symmetric polynomial of degree \(t\).
+Maclaurin's inequality bounds this by
+\((M_R^{-1}\sum_{n\in R}x_n)^t=F_b(h)^t\).
+
+Write \(\eta_k=\sup_{b\in\mathcal V}\sum_{h=1}^{q_b-1}F_b(h)^t=o(1)\).
+If the support has fewer than \(q_b/4\) elements, Cauchy--Schwarz gives
+\(q_b\sum_x\mu_b(x)^2>4\), so the collision excess is greater than three.
+For each fixed group, the expected number of such bad reserved bases
+is at most \(S\eta_k/3\). Markov's inequality bounds the probability
+of more than \(S/2\) bad bases by \(2\eta_k/3\).
+A union bound over the fixed \(\ell\) groups proves that, with
+probability \(1-o(1)\), every group has at least \(S/2\) good bases.
+
+We may simultaneously require
+\begin{equation}\label{eq:initialspan}
+ \sum_{n\in C_i}n^k\le4tN^k/k\qquad(1\le i\le\ell).
+\end{equation}
+Indeed the expectation is at most \(2tN^k/k\), because
+\(\sum_{n\le N}n^k\le N^{k+1}/(k+1)+N^k\) and \(M_R\sim N\).
+Sampling without replacement has variance at most \(tN^{2k}\).
+Chebyshev's inequality makes the failure probability at most
+\(k^2/(4t)=o(1)\), uniformly in the fixed number of groups.
+Fix a realization with both properties.
+
+Allocate \(s\) good reserved bases to each group, with no base used
+twice. Before any individual choice, fewer than
+\(\ell s=S/4\) bases have been used, whereas the group in question
+has at least \(S/2\) good choices. The greedy allocation is therefore
+possible; the completed allocation uses exactly \(S/4\) bases.
+If a finite integer set \(A\) occupies \(r\) residue classes modulo
+a positive integer \(q\), then
+\[
+ |A+\{0,q\}|\ge|A|+r.
+\]
+For each occupied residue, its largest element supplies a new element
+after addition of \(q\).
+Applying this with \(q=b^k\) shows that each allocated base increases
+the subset-sum cardinality by at least \(q_b/4\ge N^k/16\).
+The original support is retained after earlier additions, so the
+support condition continues to hold. After \(s\) additions the
+cardinality is at least \(sN^k/16\).
+
+Finally add the distinct auxiliary pairs
+\[
+ (2,3),(4,5),\ldots,(256,257)
+\]
+to the 128 groups, one pair per group.
+They are disjoint from \(R\) and from the reserved bases.
+Each resulting subset-sum set contains zero and two coprime \(k\)th
+powers, so it cannot lie in a proper integer arithmetic progression.
+The initial span in \eqref{eq:initialspan} is at most \(sN^k/3\)
+eventually, because \(4t/(ks)\to1/4<1/3\).
+The reserved bases add at most \(sN^k\), and the two auxiliary powers
+add at most \(2\cdot257^k=o(sN^k)\).
+This proves \eqref{eq:groups}.
+\end{proof}
+
+We use Lev's consecutive-interval theorem in the following sufficient
+form~\cite[Corollary~1]{Lev}. If \(A_1,\ldots,A_\ell\) are subsets of
+\([0,l]\cap\Z\), each of size at least \(n\ge3\), none contained in an
+integer arithmetic progression of difference greater than one, and
+\[
+ \ell\ge2\left\lceil\frac{l-1}{n-2}\right\rceil,
+\]
+then their sumset contains \(\ell(n-1)+1\) consecutive integers.
+Here the length of a block means its largest element minus its smallest,
+as in Lev's statement.
+
+\begin{proof}[Proof of Proposition~\ref{prop:upper}]
+Apply this result to Lemma~\ref{lem:groups}, with
+\[
+ l=\lceil2sN^k\rceil,\qquad n=\lfloor sN^k/16\rfloor,\qquad \ell=128.
+\]
+The ratio \((l-1)/(n-2)\) tends to 32, so the strict inequality has
+a fixed margin. The sumset contains an interval \([a,a+L]\cap\Z\)
+with
+\[
+ L\ge128(n-1)\sim8sN^k>(N+1)^k.
+\]
+Also \(0\le a\le256sN^k\le256N^{k+1}\).
+Every integer in this interval is a sum of distinct \(k\)th powers
+with bases at most \(N\), because the groups of bases are disjoint.
+
+Adjoin the unused powers with bases \(N+1,N+2,\ldots\).
+If the currently represented interval is \([a,a+L]\) and a new power
+\(b^k\) satisfies \(b^k\le L+1\), its translate joins it without a gap,
+producing \([a,a+L+b^k]\).
+Initially \(L\ge(N+1)^k\).
+If \(L\ge b^k\), then the new length is at least \(2b^k>(b+1)^k\),
+since \(b\ge N\) and \(N/k\to\infty\).
+This preserves the induction invariant.
+At each stage the interval consists of subset sums of the finitely
+many bases used up to that stage, all distinct. Its length tends to
+infinity. Every fixed integer at least \(a\) consequently belongs
+to one finite-stage interval, and is represented by finitely many
+distinct positive \(k\)th powers. We have proved
+\[
+ T_k\le256N^{k+1}.
+\]
+Taking logarithms and using \eqref{eq:scales} gives \eqref{eq:upper}.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+If there were only finitely many strict adjacent decreases, then
+\(T_{k+1}\ge T_k\) for all sufficiently large \(k\).
+Choose arbitrarily large \(j\) from Lemma~\ref{lem:lower}.
+Let \(Y\) be a dyadic integer with \(j\le Y<2j\), and choose
+\(k\in\mathcal G\cap[Y,2Y]\).
+Then \(j\le k<4j\), and
+\(\mathcal L(k)=\mathcal L(j)+o(1)\).
+Proposition~\ref{prop:upper} gives
+\[
+ \log T_k\le(4+o(1))j\exp\!\left(\frac25\mathcal L(j)\right),
+\]
+whereas
+\[
+ \log T_j\ge j\exp\!\left(\frac9{20}\mathcal L(j)\right).
+\]
+The latter is larger for all sufficiently large \(j\), contradicting
+\(T_j\le T_k\). Thus strict adjacent decreases occur infinitely often.
+\end{proof}
+
+\section*{Acknowledgment}
+The authors acknowledge extensive assistance from OpenAI's
+artificial-intelligence tools in developing and checking the
+mathematical argument and in preparing the exposition.
+
+\begin{thebibliography}{9}
+\bibitem{BK}
+A.~S.~Belov and S.~V.~Konyagin,
+\emph{An estimate of the free term of a non-negative trigonometric
+polynomial with integer coefficients},
+Izvestiya: Mathematics \textbf{60} (1996), no.~6, 1123--1182.
+\href{https://doi.org/10.1070/IM1996v060n06ABEH000095}
+{doi:10.1070/IM1996v060n06ABEH000095}.
+
+\bibitem{EG}
+P.~Erd\H{o}s and R.~L.~Graham,
+\emph{Old and New Problems and Results in Combinatorial Number Theory},
+Monographies de L'Enseignement Math\'ematique, vol.~28,
+Universit\'e de Gen\`eve, Geneva, 1980.
+\href{https://fanchung.ucsd.edu/ron/papers/80_11_number_theory.pdf}{Author's archived copy}.
+
+\bibitem{FP}
+Kai (Steve) Fan and Paul Pollack,
+\emph{The maximal order of the shifted-prime divisor function},
+Integers \textbf{26A} (2026),
+\href{https://math.colgate.edu/~integers/aap9/aap9.pdf}{Article A9}.
+\href{https://doi.org/10.5281/zenodo.23017984}{doi:10.5281/zenodo.23017984}.
+
+\bibitem{Kim}
+D.~Kim,
+\emph{On the largest integer that is not a sum of distinct positive
+\(n\)th powers},
+Journal of Integer Sequences \textbf{20} (2017), Article 17.7.5.
+\href{https://cs.uwaterloo.ca/journals/JIS/VOL20/Kim/kim6.pdf}{Journal version}.
+
+\bibitem{Lev}
+V.~F.~Lev,
+\emph{Consecutive integers in high-multiplicity sumsets},
+Acta Mathematica Hungarica \textbf{129} (2010), 245--253.
+\href{https://doi.org/10.1007/s10474-010-0026-6}{doi:10.1007/s10474-010-0026-6}.
+\href{https://arxiv.org/abs/0806.4580v1}{arXiv:0806.4580v1}.
+
+\bibitem{NT}
+M.~Nair and G.~Tenenbaum,
+\emph{Short sums of certain arithmetic functions},
+Acta Mathematica \textbf{180} (1998), 119--144.
+\href{https://tenenb.perso.math.cnrs.fr/PPP/ShortSums.pdf}{Author's version}.
+
+\bibitem{Shiu}
+P.~Shiu,
+\emph{A Brun--Titchmarsh theorem for multiplicative functions},
+Journal f\"ur die reine und angewandte Mathematik \textbf{313} (1980), 161--170.
+\href{https://doi.org/10.1515/crll.1980.313.161}{doi:10.1515/crll.1980.313.161}.
+
+\end{thebibliography}
+\end{document}

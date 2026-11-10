@@ -1,0 +1,73 @@
+{
+  "execution_proof_commit": "75737122fb44f5f53981b502f05988165f12cac7",
+  "execution_recorded_utc": "2026-11-08T10:09:28.495530+00:00",
+  "source_modules_passed": 357,
+  "audited_constants": 1497,
+  "all_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "definition_holes_allowed": false,
+  "stages": [
+    {
+      "stage": "challenge_compile",
+      "exit_code": 0,
+      "elapsed_seconds": 4.5298516980001295
+    },
+    {
+      "stage": "challenge_export",
+      "exit_code": 0,
+      "elapsed_seconds": 5.582858725000733
+    },
+    {
+      "stage": "target_audit",
+      "exit_code": 0,
+      "elapsed_seconds": 13.300305794000451
+    },
+    {
+      "stage": "solution_export",
+      "exit_code": 0,
+      "elapsed_seconds": 109.82424303399966
+    },
+    {
+      "stage": "statement_comparator",
+      "exit_code": 0,
+      "elapsed_seconds": 222.8570757360003
+    },
+    {
+      "stage": "lean_paranoid",
+      "exit_code": 0,
+      "elapsed_seconds": 233.715984294
+    },
+    {
+      "stage": "lean4lean",
+      "exit_code": 0,
+      "elapsed_seconds": 224.85574759099927
+    },
+    {
+      "stage": "nanoda",
+      "exit_code": 0,
+      "elapsed_seconds": 115.1075765609994
+    },
+    {
+      "stage": "con_leche",
+      "exit_code": 0,
+      "elapsed_seconds": 239.6687910210003
+    },
+    {
+      "stage": "con_ron",
+      "exit_code": 0,
+      "elapsed_seconds": 200.4618335160003
+    }
+  ],
+  "export_hashes": {
+    "challenge.export": "9b05b706cd6defdf2932cb7eefbe0a8c892e1a3b2cc3c149f491b71a7343f8df",
+    "solution.export": "915c6be8e401103abd7281f8262334b5a9c8ffe09cd19ad25624cc889ad96da7"
+  },
+  "source_equivalence_checked_utc": "2026-11-10T06:12:00.433289+00:00",
+  "release_sources_byte_identical_to_execution_sources": true,
+  "fresh_release_compile_claimed": false,
+  "independent_human_review_claimed": false,
+  "sponsor_acceptance_or_priority_claimed": false
+}

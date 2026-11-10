@@ -18,16 +18,15 @@ The corresponding Justin Sun Prize catalogue entry is **JSP-000287**.
 - [Authorship and AI assistance](AUTHORS.md), [third-party attribution](THIRD_PARTY.md),
   and [relationship between the paper and formalization](PAPER_AND_FORMALIZATION.md).
 
-The 357 Lean source files are byte-identical to those checked at development
-revision `75737122fb44f5f53981b502f05988165f12cac7`. This release is a clean source snapshot with revised packaging
-and documentation; its Git revision is separate from that development revision.
-The report identifies the actual execution date and the source-equivalence check.
-No claim is made that packaging creates a new compiler execution.
+The selected proof revision is `78012848fd02d20ffd2d2dec70fdc7408483f201`. All 357 Lean source modules at that
+revision have now passed a fresh source build in separate directories and the full external checks.
+The [verification report](verification/REPORT.md) records the actual execution
+and trust scope; it is stored in a later documentation revision.
 
 Lean is pinned to **4.35.0-rc3**, and Mathlib to
 `c55e6e786f49471c72fbddbec5415808896aec1e`. The Conjectures.io single-file profile
 uses a different toolchain and is not part of this project.
 
-This is a privately prepared submission source tree. Neither its preparation
-nor its local verification establishes publication, independent human review,
-world priority, JSP acceptance, eligibility, or an award.
+This repository accompanies the proposed solution and JSP submission. Local
+verification does not establish independent human review, world priority, JSP
+acceptance, eligibility, or an award.

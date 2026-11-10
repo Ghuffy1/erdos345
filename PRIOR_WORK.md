@@ -21,6 +21,13 @@ or unpublished result. The [public computational note](https://github.com/przcho
 inspected in full contains finite computations and an unfinished outline, not
 the required infinitude proof.
 
+A fresh search also checked [PR 3146](https://github.com/TheJustinSunPrize/awards/pull/3146),
+which cites that absent `plby` path while confusing the catalogue number with
+Erdős 345. The PR is closed and unmerged. Its actual
+[source at the pinned head](https://github.com/dcdreamy-code/awards/blob/665a7c3e8803485629ca90811033b815363397b0/submissions/JSP-000345/Erdos345.lean)
+contains elementary prime and arithmetic examples, with no threshold-infinitude
+theorem. It supplies no competing proof of the present result.
+
 Two historical awards PRs mention JSP-000287:
 
 - [PR 3542](https://github.com/TheJustinSunPrize/awards/pull/3542), closed and

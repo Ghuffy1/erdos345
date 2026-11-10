@@ -12,7 +12,7 @@ authors to both the mathematical solution and the Lean formalization**. This
 statement records the authorship information supplied for preparation of the
 submission; it is not an independent identity or contribution attestation.
 
-The submitting GitHub account designated for the private drafts is `Ghuffy1`.
+The submitting GitHub account is `Ghuffy1`.
 The account-to-author connection remains subject to the sponsor's ordinary
 attribution and identity review. Submission does not authorize an account to
 make a personal prize claim for another author.
@@ -26,7 +26,5 @@ The pre-existing Mathlib library, Kneser development, and OpenAI prime-distribut
 development are credited separately in [THIRD_PARTY.md](THIRD_PARTY.md). Equal
 contribution to this project does not claim authorship of those dependencies.
 
-No new open-source license for the authors' original additions is imposed by
-this private packaging step. Existing third-party notices and licenses remain
-in force. Rights and release consent should be settled by the authors before
-any later public distribution.
+No new open-source license for the authors' original additions is assigned by
+this repository. Existing third-party notices and licenses remain in force.

@@ -17,10 +17,12 @@ The first command obtains dependency caches. The second must build this project'
 proof objects from source: this release contains no `.lake` directory, compiled
 proof objects or dependency cache. `Erdos345.lean` imports the complete local proof
 library; the separate `Audit.lean` checks all 1,497 registered constants, including
-`Erdos345.erdos_345`. Resource requirements can be substantial. The recorded
-successful build used sequential Lean commands with allocation limits up to
-6 GiB and a 16 GiB virtual-address allowance; no peak physical-RAM measurement is
-claimed.
+`Erdos345.erdos_345`. Resource requirements can be substantial. The fresh verification recorded
+in [the report](verification/REPORT.md) used native Windows: initially sequential
+compilation, then two independent source workers with one Lean thread and a
+6 GiB allocation limit per worker. It used controlled import paths and separate
+source/output directories, without an operating-system sandbox. No measured
+peak physical-RAM claim is made.
 
 The target theorem is in `Erdos345/Conclusion.lean` and has type
 `Erdos345.IntendedStatement`. Its recorded axiom output is:
@@ -34,5 +36,6 @@ challenge theorem is imported by the production proof. The statement audit is
 described in [STATEMENT.md](STATEMENT.md) and the dated execution record in
 [verification/REPORT.md](verification/REPORT.md).
 
-This document supplies reproducible commands. It does not assert a second clean
-build merely because these commands are printed here.
+These commands describe reproduction from the selected source commit. The
+verification report records the separate commands that were actually executed
+and binds their results to that commit; this documentation revision is later.

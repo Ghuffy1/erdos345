@@ -1,0 +1,7394 @@
+{
+  "checked_source_commit": "78012848fd02d20ffd2d2dec70fdc7408483f201",
+  "declarations": {
+    "Erdos345.image_indexed_sumset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_card_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_of_input_fibers_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sumset_fiber_card_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_range_even_odd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.alternating_span_balance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_cosine_and_shifted_prime_abundance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserved_augmentation_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserveGroupSize_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.selected_span_le_reserve_third": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserved_augmentation_span_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_augmented_groups": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.auxiliaryPair_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.auxiliaryPair_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.auxiliaryPair_powers_coprime": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.self_power_mem_finitePowerSums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.auxiliaryPair_no_proper_progression": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_auxiliary_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.auxiliaryPair_span_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_konyagin_input_proved": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_threshold_upper_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_fan_pollack": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_many_shifted_primes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovLevelPrimes_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovLevelPrimes_three_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_nonneg_of_phase_le_six": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_zero_ge_neg_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_six_gt_argument": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_pos_upto_eight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovLevelPrimes_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovLevelPrimes_zero_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovSineLevels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_pos_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevels_nonnegative_tail": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_ge_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_small_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_scale_512_le_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_balanced_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_pos_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_nonneg_512": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineLevel_lower_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadic_log_envelope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weighted_square_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weighted_square_triangle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSinePrefix_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineTotal_lower_with_level": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_real_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_scale_log_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_twice_le_log_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_square_le_log_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_belov_primes_mul_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_level_count_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_level_reciprocal_numerator_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileCut_ge_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileCut_power_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileCut_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfile_cut_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfile_budget_512": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_input_of_global_sine_512": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_global_sine_512_and_fan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovProfileAtoms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileLevel_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovProfileLevels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_eq_levels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileLevel_le_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileLevel_le_reciprocal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_input_of_profile_data": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileHead_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileTail_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfile_split_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfile_linear_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicAtomFrequency_lt_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_le_two_pow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovFrequency_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovFrequency_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovDenominator_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.one_le_belovDenominator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovDenominator_base": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.inv_belovDenominator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_inv_belovDenominator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovSineFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tsum_belovSineFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovSineFamily_pos_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_belov_safe_level": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovMultiplicity_four_ge_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_belov_balanced_level": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.addChar_sum_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.character_bitSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.bitSum_fourier_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.half_character_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.half_stdAddChar_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_pi_mul_half_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_pi_mul_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_nat_fraction_sq_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_nat_fraction_sq_mod": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerTerm_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerTerm_residue_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerEnergy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerEnergy_gt_of_cubic_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.low_centerEnergy_forces_cubic_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.characteristic_eq_zero_of_unit_coordinate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.characteristic_dvd_of_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_natDegree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_leadingCoeff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_shiftedChebyshev_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_real_abs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_real_derivative_abs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_real_difference_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_complex_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_complex_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unitGrid_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unitGrid_step_abs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevPhase_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshev_sample_step_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevPhase_cross_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshev_sample_energy_mass_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_sq_finite_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_chebyshev_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_chebyshev_realSeries_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevSeries_norm_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_chebyshevSeries_norm_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cosineSeries_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevSeries_pointwise_sq_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevCoefficientMass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevCoefficientMass_sq_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_difference_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.norm_sq_difference_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_norm_sq_difference_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_sampling_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_sampled_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_sampled_half_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_sixteen_ge_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coarseWindowScale_conditions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coarseWindowFloor_gt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coarseWindowRadius_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cofactorWitness_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_mul_linear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_eq_div": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cofactorWitness_eq_top": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nat_mul_exp_le_exp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_two_exp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.two_exp_neg_lt_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_lt_one_of_log_budgets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_cosineMean_pow_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_nonzeroFrequencies": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_nonzeroFrequencies_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_power_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_top_filter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_exponential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_annihilates_multiple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complementFactor_monic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_monic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_top": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_other": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_abundance_proved": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.erdos_345": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_profile_cosine_of_global_sine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_input_of_concrete_sine_profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_concrete_sine_profile_and_fan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.conductor_divisibility_of_heights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.conductor_minimal_degree_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_conductor_divisibility": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weighted_sum_square_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_nonnegative_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.convolution_energy_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_nonzero_count_le_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coefficientL1_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrence_residual_count_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_window_energy_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.inverse_energy_from_flat_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_le_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteCosineMean_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteCosineMean_eq_one_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteCosineMean_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteCosineMean_pow_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteCosineMean_pow_le_of_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_cosineMean_pow_le_of_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weightMass_extend_of_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weightedSum_extend_of_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.interlaced_weightMass_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weightMass_ge_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exact_cosine_mass_of_interlacing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatNormConstant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_coefficient_norm_from_cosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_coefficient_norm_below_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.radialFlatProduct_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.radial_log_upper_of_cosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_sup_norm_from_cosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_sup_norm_mass_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cosine_nonneg_of_half_period": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.augmentFirstWeight_antitone": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.augmentFirstWeight_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.augmentFirstWeight_evaluation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.augmentFirstWeight_cosine_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.interpolate_cosine_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatCosineNonnegative_of_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_family_from_cosine_existence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_center_bound_from_cosine_existence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.countingProfileWeight_antitone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.countingProfileWeight_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.countingProfileWeight_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.countingProfileWeight_interlace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exact_mass_from_counting_profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonzero_zmod_sum_eq_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclic_character_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclicFourier_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclic_character_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclic_parseval_complex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclic_parseval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueCollision_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueCollision_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueSupport_collision_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueSupport_large_of_collision_le_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicRootIndex_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevMixingCost_polynomial_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicChebyshev_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_dvd_expand": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_dvd_expand": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_dilate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilation_preserves_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_dilation_preserves_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationMatrix_matches_sequence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicRootValue_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicRootValue_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_recurrence_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.monic_divisor_of_prime_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.monic_divisor_of_cyclotomicProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_minimal_cyclotomic_annihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_resultant_eq_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.one_le_norm_intCast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitive_value_norm_product_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_eval_one_isUnit_primePower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_eval_one_isUnit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.remove_nonprimary_cyclotomic_factors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_range": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_le_add_missing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prefixEnergy_le_population_add_missing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.populationEnergy_ge_prefix_sub_missing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.interval_of_dense_balanced_sumsets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dense_int_sumset_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dense_nat_sumset_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_of_vanishing_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_quotient_vanishing_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_flat_quotient_polynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sequenceDilation_pow": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_factor_exponential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_multiple_kills_exponential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.split_dilation_annihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_power_at_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationAction_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilation_annihilator_divides_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_monic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationBoundPolynomial_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationBoundPolynomial_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationBoundPolynomial_annihilates_complex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationBoundPolynomial_annihilates_integer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_annihilator_dilation_product_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrenceSolver_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationMatrix_mulVec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilation_power_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilation_characteristic_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_annihilator_degree_ge_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_annihilator_characteristic_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationDifference_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationDifference_cast": [
+      "propext"
+    ],
+    "Erdos345.dilationDifference_factor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.primePower_le_dilation_valuation_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationDifference_five_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complex_sq_norm_re": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.discrete_energy_gram_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.gram_error_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.gram_error_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.discrete_energy_lower_of_gram": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.discrete_energy_half_lower_of_gram": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_geometric_sum_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oscillatory_sum_norm_le_variation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oscillatory_sum_norm_le_of_step_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.product_step_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_disjoint_subsets_of_uniform_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_divisorCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.harmonic_eq_sum_Ioc": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_divisorCount_le_harmonic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.divisorWeight_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.divisorWeight_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.divisorWeight_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_divisorWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_divisorWeight_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasSum_nat_pow_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasSum_shift_three_fifth_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasSum_nat_fifth_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tsum_succ_fifth_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_shift_fifth_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadic_fifth_shift_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicAtomFrequency_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicAtomFrequency_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_dyadicAtomFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_dyadicFrequency_level": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicFrequency_level_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_dyadicFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_nat_pow_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_succ_pow_div_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadic_cover_below": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.backwardPrefix_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.backwardPrefix_bound_of_dyadic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_sine_dyadicFrequency_level": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_sine_dyadicFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_abs_sine_dyadicFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tsum_sine_dyadicFrequency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_nat_le_square_of_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicSineLevel_abs_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_dyadicSineLevels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicSineLevel_nonneg_tail": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_subset_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.population_energy_le_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonzero_lowEnergyGrid_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatInverseRadius_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_lowEnergyGrid_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_of_empty_exceptional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_collisionSum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.endpoint_extension_card_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sumset_residue_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multiplicity_log_bound_of_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multiplicity_bound_of_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_integer_primePower_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_integer_rootOne_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.energyHeightConstant_le_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerExponentConstant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerWindowExponent_le_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.pad_exponential_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_exponential_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonunit_expansion_sum_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multiplicity_le_of_padded_sum_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.multiplicities_eq_of_padded_sum_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.sufficientCenterWindow_ge_sixteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sufficientCenterWindow_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sufficientCenterWindow_contracts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerEnergy_gt_sufficientPrefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_degree_explicit_center_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.degree_le_exp_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.monomial_exp_logScale_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_monomial_exp_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_mem_genEigenspace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.independent_submodules_linearIndependent_sigma": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_family_linearIndependent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_X": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponential_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponential_difference_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_annihilate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_top_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_dilate": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.exponentialPower_linearIndependent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_dvd_factorial_of_mul_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_scaled_exponent_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.conductorCoefficient_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_uniform_exponent_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerEnergy_gt_of_flat_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_comm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_pi_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_pi_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.map_iteratedDifference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dvd_iteratedDifference": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_sub": [
+      "propext"
+    ],
+    "Erdos345.iteratedDifference_zero_of_prefix": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonEval_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonEval_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.difference_newtonEval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_newtonEval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_newtonEval_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_power_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_difference": [
+      "propext"
+    ],
+    "Erdos345.newton_forward_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventIndicator_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_lt_of_uniformMean_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_event_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finite_bad_event_selection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_const": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_finset_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_mul_const": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_pi_prod": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_ite_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.interval_for_128_sets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fiber_card_defect_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.image_filter_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fiber_card_le_preimage_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.image_filter_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.image_filter_mem_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fiber_partition_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fiber_region_card_eq_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.baseSum_twice": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.baseSum_sqrt_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sqrt_succ_pow_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_exception_from_shifted_primes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.threshold_lower_bound_from_shifted_primes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.not_represented_of_residue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_power_mod_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_power_mod_prime_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residue_in_top_interval": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_exception_from_residue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.padFin_castLE": [
+      "propext"
+    ],
+    "Erdos345.padFin_eq_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_padFin_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_radius_perturbation_le_eight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.perturbation_budget_of_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.zero_mem_finitePowerSums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.naturalResidueImage_finitePowerSums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_insert": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_insert_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedResidues_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_union_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_complex_cast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueMass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueMass_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueMass_zero_outside": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueMass_sum_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residueMass_fourier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_finiteRowMean": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteRowMean_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_finiteRowMean_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventIndicator_sum_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complement_filter_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_bad_row_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.le_natSetSpan": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natSetSpan_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natSetSpan_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natSetSpan_le_of_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_le_natSetSpan_add_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.many_shifted_primes_half_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.upper_envelope_lt_threshold_of_many_primes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rpow_increment_lower_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.firstPowerWindow_length_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.firstPowerWindow_lower_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.firstPowerWindow_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.large_scale_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dvd_fixedDifferenceDivisor_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reduction_quotient_dvd_fixedDifference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reduction_quotient_dvd_fixedDivisor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_dvd_fixedProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_sub_one_dvd_of_fixedDifferenceDivisor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_dvd_fixedDifferenceDivisor_of_sub_one_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_dvd_fixedDifferenceDivisor_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifference_eq_nat_sub": [
+      "propext"
+    ],
+    "Erdos345.nat_power_difference_factor": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_not_dvd_self_add_one": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_dvd_factored_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_odd_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.five_power_sub_one_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_two_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.factorization_cast_eq_emultiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_factorization_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.divisors_eq_filter_Icc": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.X_power_sub_one_power_cyclotomic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_cyclotomic_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatCyclotomic_annihilates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_minimal_flat_cyclotomic_annihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_minimal_flat_slot_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_regularizedValue_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.vanishingPowerProduct_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.vanishingPowerProduct_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_regularizedNorm_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_regularizedNorm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_cast_flat_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_error_annihilation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_flat_error_minimal_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_flat_error_multiplicity_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.inverse_energy_mono_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_inverse_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.abs_le_flatInverseRadius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_inverse_of_energy_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_C": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_constant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_one_sub_X_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_top_difference_all": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_top_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coefficientL1_flatQuotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coefficientL1_flatPolynomial_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.geometricNat_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_eq_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_coeff_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_eval_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_eval_one_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_eval_one_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_coeff_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.one_sub_X_pow_natDegree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.one_sub_X_pow_leadingCoeff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_leadingCoeff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_natDegree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.one_sub_X_power_dvd_flatPolynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_rootMultiplicity_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.initialCosineSum_floor_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovFloorCosine_zero_outside": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.summable_belovFloorCosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovFloorCosine_eq_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tsum_belovFloorCosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.collision_decay_of_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_fourier_decay": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tendsto_fourier_decay_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_decay_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_collision_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_parameter_conditions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_energy_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_root_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exp_quarter_le_exp_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_coarse_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_chebyshev_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_center_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierN_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierW_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierW_le_N": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierH_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierH_add_one_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierN_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourierW_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_fourierN_add_one_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_inverse_factor_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_degree_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_exp_quarter_ge_eight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_inverse_size": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_fourier_center_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_gcd_one_groups": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.factorial_conductor_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.goodConductorEnvelope_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_conductor_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.degreeInterval_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.degreeInterval_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicShifts_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicShifts_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_dyadicShifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.harmonic_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_dyadic_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_prefix_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_threshold_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_reduction_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_gridNear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_gridNear_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_centerNumerators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_commonRationalArcs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_commonRationalArcs_of_near": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_exceptional_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_grid_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_flat_grid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_le_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finitePowerSums_subset_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedUpTo_of_group_sums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_indexed_sumset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.indexed_sumset_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lowEnergyGrid_subset_integerArcs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_lowEnergyGrid_integer_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_integer_localized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCollisionSum_le_integer_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_multiplicity_le_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_recurrence_primePower_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_recurrence_rootOne_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_integer_primePower_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_integer_rootOne_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_sumset_growth_of_generating": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.binomialPolynomial_eval_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.binomialPolynomial_eval_int": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.binomialPolynomial_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.binomialPolynomial_coeff_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_integerValued": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_eval_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_coeff_top": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_eval_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_eq_of_eval_range": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_eq_newtonPolynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_top_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonEval_truncate_eq_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonPolynomial_eval_truncate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_difference_coefficient_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_iteratedDifference_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.componentFilter_expansion_at_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.isIntegral_shiftAction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.filtered_top_isIntegral": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complementFactor_eval_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.filtered_top_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_interval_ready_groups": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_inverse_error_polynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatQuotient_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatInverseRadius_le_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatInverseRadius_eighth_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatInverseRadius_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.groupLabel_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.select_groups_with_support_and_span": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_selected_groups": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_labelHit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_centeredLabelHit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_centeredLabelHit_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_centeredLabelHit_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_labelGroup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.labelGroup_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.label_product_mean": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.label_product_exp_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.label_cosine_product_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sampledBases_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sampledBases_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prod_sampledBases": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniformMean_const_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.labelWeightSum_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_labelWeightSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centered_labelWeightSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.labelWeight_variance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.labelWeight_variance_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_add": [],
+    "Erdos345.difference_annihilator_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.zeroth_difference_modulus_one": [
+      "propext"
+    ],
+    "Erdos345.primaryProduct_eq_rootOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_multiplicity_zero_of_large_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_rootOne_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.large_prime_power_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lev_integer_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lev_uniform_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lev_parameters_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lev_interval_covers_next_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.local_scaling_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.logScale_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natLog_two_le_real_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.conductorCoefficient_le_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.goodConductorEnvelope_le_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_regularizedNorm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePower_le_twice_totient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaled_log_regularizedNorm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaled_log_regularizedNorm_le_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tendsto_logScale_atTop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exp_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.logScale_pow_div_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tendsto_logScale_pow_div": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_logScale_pow_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_sixth_power_below_eighth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_lowEnergyGrid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.lowEnergyGrid_subset_commonRationalArcs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_lowEnergyGrid_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stackWindowCount_size": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stackWindowCount_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stackWindowCount_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.middle_scale_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_dvd_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_annihilates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_monic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_integral_minimalAnnihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_monomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_ofFn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.initialShiftFamily_linearIndependent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.no_small_annihilator_of_initial_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_map_annihilates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_nonunit_component_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_minimal_cyclotomic_complex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unitCyclotomicIndex_value": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_index_ne_unit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dvd_reductionModulus_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_reduction_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_le_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_le_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_polynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalReductionDegree_le_of_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_modulus_le_of_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_degree_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_minimal_cyclotomic_complex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_cyclotomic_witness_norm_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.totalChebyshevMass_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.chebyshevMass_le_total": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.totalChebyshevMass_sq_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mixedChebyshev_energy_mass_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mixedChebyshev_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mixedChebyshev_half_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.matrix_sum_re_ge_diagonal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.discreteGram_self_re": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.discrete_sum_energy_ge_diagonal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_annihilator_of_rational_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_integer_cyclotomic_annihilates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.annihilator_transfer_to_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_error_power_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_annihilator_mod_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.modulated_discreteGram": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.modulated_discreteGram_offDiagonal_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_modulated_offDiagonal_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weight_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.initial_finset_eq_range_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weightLayer_eq_range": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.layerHeight_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.layer_index_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.layer_weighted_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_layerHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.layer_weighted_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.normalizedMoment_eq_layer_factorials": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.normalizedMoment_dvd_factorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.normalizedMoment_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootSlots_eq_layer_quotients": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootSlots_mul_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.group_sumset_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sumset_add_idempotent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilizer_subset_group_sumset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multiple_kneser_fixed_stabilizer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multiple_kneser": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natural_gcd_mem_addSubgroup": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.natural_finset_gcd_mem_addSubgroup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natural_residue_generates_of_gcd_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natural_residue_generates_of_no_progression": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_naturalWindow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.naturalWindow_card_half_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCoefficient_eq_zero": [
+      "propext"
+    ],
+    "Erdos345.pow_newton_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonEval_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.newtonEval_powerCoefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasNewtonReduction_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.low_energy_center_numerator_divisible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_near_of_numerator_divisible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.low_energy_near_factorial_center_is_near_integer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_inverse_integer_center": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tsum_ge_initial_sum_of_nonnegative_tail": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dyadicSineTotal_pos_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natCast_power_eq_one_iff_dvd_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.odd_prime_lift_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_odd_dilation_generator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_not_dvd_pred": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.generator_power_sub_one_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dilationDifference_odd_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.generator_coprime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.odd_generator_prime_power_period": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.generator_prime_power_period_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrimeDilationPeriod_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrimeDilationPeriod_pow_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrimeDilationPeriod_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrimeDilationPeriod_period": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.odd_dilation_root_one_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.odd_dilation_primary_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrime_cyclotomic_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddPrime_cyclotomic_multiplicity_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_abs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_pi": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_abs_le_inv_sin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_small_angle_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exact_reduction_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_exact_reduction_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.ordinaryComponentPolynomial_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.ordinaryComponentPolynomial_coeff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.ordinaryComponentPolynomial_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.ordinary_expansion_as_frequency_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.ordinary_cyclotomic_expansion_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.periodic_lifting_arithmetic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.periodic_sumset_lifting": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_square_sub_integer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sine_square_lower_on_phase_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_phase_window_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.naturalWindow_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complex_coefficient_norm_le_unit_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coefficientL1_le_unit_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coefficientL1_flat_from_cosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaled_chebyshev_samples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialFrequency_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootSlots_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_polynomial_perturbation_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complex_polynomial_sum_of_rational": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialReduction_tail_divisibility": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialReduction_of_tail_divisibility": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasIntegerPolynomialReduction_iff_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.X_pow_eq_newtonPolynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_power_newton_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.globalPolynomialReduction_to_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.globalPolynomialReduction_of_tail_divisibility": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasGlobalIntegerPolynomialReduction_iff_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomial_sample_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.real_polynomial_sample_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialShiftAction_eval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialShiftAction_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.taylor_coeff_of_natDegree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialShiftAction_top": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positivePhaseScale_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positivePhaseScale_pow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_phase_eq_scaled": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_eq_scaled": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sine_square_complement_numerator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_complement_numerator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finiteSineEnergy_min_numerator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positivePhaseScale_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positivePhaseScale_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positivePhaseScale_le_base": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerBit_fourier_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerBit_collision_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerBit_support_subset_represented": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedResidues_large_of_cosineSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.positive_power_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedEndpoint_add_one_le": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_power_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_power_square_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rpow_increment_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindowLower_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindow_length_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindow_phase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reciprocal_window_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reciprocal_window_sum_log_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindows_log_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindowLower_ge_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindowUpper_le_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindow_subset_population": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindow_length_ge_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerWindows_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sufficientCenterPrefix_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_sufficientCenterPrefix_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerPrefixLogConstant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_sufficientCenterPrefix_square_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_primaryOrders": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_nonprimaryOrders": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_primary_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonprimaryOrders_exclude_primePowers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_power_annihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_local_scaling_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_local_scaling_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_order_ge_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primaryOrders_card_le_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primary_exponent_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_two_profile_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primeCounting_le_five_mul_div_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_product_ge_two_pow_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sqrt_prime_product_ge_two_pow_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_lt_sqrt_power_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.two_pow_prime_count_lt_threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_threshold_lower_of_prime_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_log_threshold_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_bombieri_vinogradov": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_log_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_prime_log_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_prime_weights_of_phaseBin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.odd_prime_mass_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_prime_mass_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePhaseDistance_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePhaseDistance_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePhaseDistance_le_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePhaseBin_le_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePhaseBin_dvd_alternative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.phase_floor_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_prime_logs_of_phaseBin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitiveTopCoefficient_norm_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitiveTopCoefficient_product_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitiveTopCoefficient_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_large_primePower_top_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitive_power_difference_product_eq_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_primitive_sub_one_norm_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePower_pure_power_norm_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitive_power_norm_coprime_invariant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePower_general_power_norm_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primePowerValuation_le_divisor_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonvanishingPrimeWeight_le_slot_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonvanishingPrimeWeight_le_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_log_rpow_le_positive_rpow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_prime_progression_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_mod_one_iff_shift_divides": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_theta_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_theta_le_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.endpointError_le_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_uniform_of_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_abs_sine_zero_bin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_abs_sine_positive_bin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_abs_prime_sine_harmonic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_abs_prime_sine_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_scale_twice_primorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_progression_scale_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_prime_progression_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_prime_progression_scale_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_subset_products_twenty_four_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_product_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_subset_products_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_subset_products_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.choose_lower_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_count_sqrt_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_le_sqrt_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_succ_le_twice_sqrt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_theta_half_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_factor_ge_exp_neg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belov_scaled_sine_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.profile_cosine_nonneg_of_sine_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetBlock_injective": [
+      "propext"
+    ],
+    "Erdos345.prouhetBlock_unique": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_zero_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhet_block_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_prouhetFamily_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_shift_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_sub_color": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_moment_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prouhetFamily_moment_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddProuhet_positive_odd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddProuhet_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddProuhet_moment_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddProuhet_moment_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddProuhet_one_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_disjoint_odd_equal_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_published_analytic_inputs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_reduced_phase_long_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_sufficientCenterPrefix_exp_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sufficientCenterPrefix_le_quasipolynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerEnergy_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_good_quasipolynomial_center_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerPrefixPowerConstant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quasipolynomialCenterPrefix_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_quasipolynomialCenterPrefix_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quasipolynomialCenterPrefix_le_seventh_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_logScale_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_quasipolynomialCenterPrefix_le_seventh_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_full_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_fiber_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_fiber_defect_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_new_class_of_generating": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_region_residue_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_old_region_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_sumset_fiber_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quotient_sumset_fiber_bound_of_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_radial_factor_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_radial_log_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_radialFlatProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.radialFlatProduct_log_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_circle_radial_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_circle_radial_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.radialFlatProduct_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_norm_le_radial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_oddPowerPacket": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.OddPowerPacket.base_le_total": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.OddPowerPacket.digit_properties": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddControlledRepresentation_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddControlledRepresentation_scaled_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.OddPowerPacket.represents_multiples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.correctionBase_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.correctionBase_odd_large": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.correctionSum_eq_set": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.correctionSum_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.correctionSum_modEq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.OddPowerPacket.threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_least_powerThreshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.leastPowerThreshold_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_late_powerThreshold_inversions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_sineEnergy_abs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_sineEnergy_eq_center": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_fraction_den_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_fraction_den_gt_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_center_energy_gt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_primePower_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_primePower_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.top_norm_eq_of_component_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_primePower_coefficient_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_rational_reduction_phase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_phase_int_shift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_pi_sq_int_shift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_phase_sineEnergy_eq_center": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.finite_reciprocal_sublevel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_belovCutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovCountingProfile_monotone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovCountingProfile_zero_below_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovCountingProfile_one_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileTerm_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_monotone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovCountingProfile_le_majorant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.belovProfileMajorant_double": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.zero_of_recurrence_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eq_of_recurrence_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrence_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.generatedRecurrence_solution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.generatedRecurrence_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.generated_power_congruence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialRecurrence_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.polynomialRecurrence_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.local_solution_agrees_mkSol": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prependRecurrence_solution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_unshifted_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_integral_recurrence_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_integral_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrenceInitialMap_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrenceKernel_finrank_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrence_expansion_of_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.linearFactorProduct_monic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.linearFactorProduct_natDegree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.linearFactorProduct_annihilates_component": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.split_recurrence_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_translate_general": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.recurrence_zero_of_zero_tail": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sequenceAnnihilator_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_flat_translate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.real_cast_flat_polynomial_annihilation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_reduced_phase_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.energyHeightConstant_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.conductorCoefficient_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_bound_for_all_reductions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedPrimes_card_le_divisorCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedPrimeProduct_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_le_divisorEnvelope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_reductionModulus_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.dvd_reductionModulus_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.hasNewtonReduction_iff_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.factorial_dvd_reductionModulus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_mono_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.powerCoefficient_one": [
+      "propext"
+    ],
+    "Erdos345.reductionModulus_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eval_divByMonic_X_sub_C_eq_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complementFactor_of_factorization": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complementFactor_eval_eq_regularized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicProduct_congr": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_derivative_eval_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomicComplement_eval_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicValue_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicNorm_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicValue_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicNorm_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicValue_congr": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedCyclotomicNorm_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rawFlatPolynomial_eq_cyclotomic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedPowerFactor_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedPowerProduct_factor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedPowerFactor_norm_of_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.regularizedPowerFactor_primitive_norm_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.represented_iff_mem_subsetSums": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.represented_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representation_bases_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exception_lt_threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_represented_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserved_good_allocation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserveCount_le_div": [
+      "propext"
+    ],
+    "Erdos345.reserveCount_le": [
+      "propext"
+    ],
+    "Erdos345.reserveCount_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_above_unreserved": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reservedBases_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserveCount_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reserved_power_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_reserve_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_reserved_groups": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_rpow_tangent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quarter_root_le_one_sub_inv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_new_residue_endpoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.residue_endpoint_card_growth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.natCast_eq_on_closed_interval": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.naturalResidueImage_card_of_not_both_endpoints": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.naturalResidueImage_card_closed_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniform_cell_error_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniform_sampling_error_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_regularizedNorm_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_topDenominator_one_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_large_rootOne_top_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_geometric_sum_norm_le_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unit_norm_pow_sub_one_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.root_of_unity_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.distinct_roots_ratio_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cyclotomic_root_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rounded_residual_count_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_rounded_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_flat_power_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rounding_error_sine_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sineEnergy_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rounding_error_energy_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.subsetCosineProduct_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.subsetCosineSum_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_sampled_cosineProduct_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_sampled_cosineSum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_label_cosine_decay_of_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sampledPowerSum_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_sampledPowerSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sampledPowerSum_variance_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_span_mean_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_span_variance_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.span_variance_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_large_span_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_bad_support_le_cosineMean": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mean_bad_support_of_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_label_support_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rpow_inv_le_of_log_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_small_numerator_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_nonempty_of_large": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sample_floor_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sampling_fraction_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_fourierN_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fourier_collision_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_split_expansion_top_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimal_cyclotomic_expansion_top_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sequenceAnnihilator_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.minimalAnnihilator_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scale_finite_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.primitiveTopCoefficient_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.norm_ge_exp_of_scaled": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_large_scaled_rootOne_top_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_expansion_top_coeff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_supported_chebyshev_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_scaled_chebyshev_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshev_topScale_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaled_chebyshev_top_norm_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integer_multiple_minimal_cyclotomic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.complex_integer_multiple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_rootOne_coefficient_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_rootOne_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_error_rootOne_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_abs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_small_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reduction_scaling_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_scaling_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sharp_interval_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sequenceShift_pow": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_sum_of_degree_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_zero_sequence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_X_sub_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_difference_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_annihilates_polynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.X_sub_one_power_dvd_flatPolynomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_annihilates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.iteratedDifference_power_vanish": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftAction_annihilates_of_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flatPolynomial_annihilates_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.translated_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.translated_sum_le_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_backward_prefix_le_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_backward_prefix_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_simultaneous_backward_averages": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_simultaneous_backward_averages_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_subset_products_dominate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_requirement_below_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_abundance_of_bombieri_vinogradov": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_power_lt_exp_div_log": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.doubled_logScale_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_shifted_prime_requirement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_abundance_of_fan_input": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedPrimeProduct_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.prime_dvd_shiftedPrimeProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.fixedDifferenceDivisor_dvd_shiftedPrimeBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.reductionModulus_dvd_shiftedPrimeBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.gcd_classes_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.divisor_prime_pairs_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.selected_divisor_pairs_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.selected_divisor_pairs_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_spike_of_progression_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.gcd_class_embedding": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.gcd_class_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_product_fiber_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_spike_of_pair_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nat_quotient_half_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shifted_prime_spike_of_many_progressions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_simultaneous_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_simultaneous_weighted_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sum_odd_reals": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.oddSineSum_abs_le_square_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_abs_linear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.abs_sine_round_shift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.two_distance_le_abs_sine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_abs_le_phaseDistance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaledSineBlock_abs_le_phaseBin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sine_square_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sineEnergy_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_phase_squared_distance_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_sineEnergy_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sineEnergy_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.power_modulus_one_of_small_heights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_phase_window_modulus_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exact_reduction_step_modulus_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniform_scaled_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.small_numerator_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_smallNumeratorFrequencies": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_smallNumeratorFrequencies_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.near_integer_implies_small_numerator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.nonzero_integerArcs_subset_smallNumerators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.card_nonzero_integerArcs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sorted_128_sumset_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.paired_span_min_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sorted_prefix_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sorted_prefix_growth_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sorted_prefix_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.degree_le_fourierN": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_span_failure_small": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilized_sumset_fiber_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilizer_natCard": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilizer_quotient_saturation_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilizer_quotient_self_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stabilizer_quotient_mem_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.phaseWindows_pairwise_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.stacked_naturalWindow_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.thresholds_upward": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.threshold_le_of_isLeast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.least_threshold_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.isLeast_thresholds_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.eventually_monotone_of_finite_drops": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.infinite_drops_of_late_inversions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.infinite_positive_drops_of_late_inversions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.intended_of_thresholds_and_late_inversions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedUpTo_represented": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedUpTo_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedUpTo_add_next": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.representedInterval_add_next": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.succ_pow_mul_sub_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.next_power_le_twice": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tailLength_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tailLength_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.tailInterval_invariant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.threshold_of_representedInterval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_least_threshold_of_threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_least_threshold_of_representedInterval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_threshold_envelope_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.logScale_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_threshold_envelope_le_at_larger": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.topDenominator_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.scaled_log_topDenominator_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_topDenominator_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.initialCosineSum_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sine_le_truncatedCosine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.theta_le_four_sin_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.five_period_two_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.twoPowerDilationPeriod_pos": [
+      "propext"
+    ],
+    "Erdos345.twoPowerDilationPeriod_period": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.twoAdic_cyclotomic_multiplicity_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.twoAdic_cyclotomic_multiplicity_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_cos_sine_substitution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_integral_norm_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.shiftedChebyshevSeries_continuous_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.population_energy_gt_of_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.uniform_energy_of_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.good_degrees_uniform_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.isCoprime_linear_of_eval_unit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cancel_unit_factor_on_polynomial_sequence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.remove_unit_factor_from_power_annihilator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.coarse_unreserved_frequency_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreserved_collision_le_exp_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.mem_unreservedPopulation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedEndpoint_cast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedEndpoint_ge_three_quarters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.quarter_root_endpoint_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_contains_band": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.unreservedPopulation_missing_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.valuationWindow_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.factorial_valuation_scaled_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.valuationWindow_scaled_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.valuationWindow_real_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multipleWindow_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.multipleWindow_card_scaled_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootOneWindow_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootOneWindow_scaled_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rootOneWindow_real_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.integral_split_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sin_lower_on_trimmed_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.sine_weighted_integral_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.cosineSeries_sine_energy_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.windowHeightBudget_antitone_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.windowHeightBudget_le_explicit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.windowHeightBudget_le_log_envelope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.windowHeightBudget_le_linear_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.rational_phase_window_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.translated_phase_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.translated_flat_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_integer_error_multiple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_flat_error_window_multiplicity_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_rational_phase_height_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.centerWindowLogConstant_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_succ_le_logScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.log_sufficientCenterWindow_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.windowHeightBudget_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.weighted_primePower_height_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.height_bounds_to_uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.flat_multiplicity_le_power_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_block_avoiding": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.real_div_badcount_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_zero_run_of_badcount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_zero_run_of_energy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos345.exists_recurrence_zero_run": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.addStab_nontrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.mulStab_nontrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.of_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.of_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.of_mulStab._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.of_mulStab._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.one_mem_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.Nonempty.zero_mem_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_add_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_add_ssubset_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_idem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_image_coe_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_nonempty._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_quotient_addCommute_addSubgroup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_singleton": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_subset_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_subset_sub_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_subset_sub_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addStab_vadd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.addSubgroup_add_card_eq_add_of_add_stab_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_addStab_add_add_add_addStab_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_aux1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_aux1._abel_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_kneser": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_strict_kneser": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_subset_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_subset_left_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_subset_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.add_subset_right_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_add_card_image_coe": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_add_card_image_coe'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_dvd_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_dvd_card_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_dvd_card_add_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_eq_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_eq_zero._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_addStab_le_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_add_card_eq_addStab_card_add_coe": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_dvd_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_dvd_card_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_dvd_card_mul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_eq_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_eq_one._simp_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_le_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_3": [
+      "propext"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_5": [
+      "propext"
+    ],
+    "Finset.card_mulStab_mul_card_image_coe'._simp_1_6": [
+      "propext"
+    ],
+    "Finset.card_mul_card_eq_mulStab_card_mul_coe": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.coe_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.coe_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_add_sub_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_mul_sub_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_mul_sub_card_le._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_finset_mulStab_mul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_finset_mulStab_mul_mulStab._simp_1_1": [],
+    "Finset.disjoint_smul_finset_mulStab_mul_mulStab._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_finset_mulStab_mul_mulStab._simp_1_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_finset_mulStab_mul_mulStab._simp_1_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_smul_mulStab._simp_1_1": [
+      "propext"
+    ],
+    "Finset.disjoint_vadd_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.disjoint_vadd_finset_addStab_add_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.instDecidablePredMemAddSubgroupStabilizerSetCoe_erdos345._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.instDecidablePredMemAddSubgroupStabilizerSetCoe_erdos345.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.instDecidablePredMemSubgroupStabilizerSetCoe_erdos345._proof_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.instDecidablePredMemSubgroupStabilizerSetCoe_erdos345.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.inter_addStab_subset_addStab_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.inter_add_sub_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.inter_mulStab_subset_mulStab_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.inter_mul_sub_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.inter_mul_sub_card_le._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_addStab'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_addStab._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_addStab_iff_subset_vadd_finset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_addStab_iff_vadd_finset_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_mulStab'": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_mulStab._simp_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_mulStab_iff_smul_finset_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mem_mulStab_iff_subset_smul_finset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab.eq_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_idem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_image_coe_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_image_coe_quotient._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_mulStab._simp_1_1": [],
+    "Finset.mulStab_mul_mulStab._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_mulStab._simp_1_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_ssubset_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_ssubset_mulStab._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_mul_ssubset_mulStab._simp_1_2": [
+      "propext"
+    ],
+    "Finset.mulStab_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_nonempty._simp_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_quotient_commute_subgroup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_quotient_commute_subgroup._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_quotient_commute_subgroup._simp_1_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_quotient_commute_subgroup._simp_1_4": [
+      "propext"
+    ],
+    "Finset.mulStab_singleton": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_subset_div": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_subset_div_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_subset_div_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_union._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mulStab_union._simp_1_2": [],
+    "Finset.mulStab_union._simp_1_3": [
+      "propext"
+    ],
+    "Finset.mul_aux1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_aux1._abel_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_1": [
+      "propext"
+    ],
+    "Finset.mul_kneser._simp_1_10": [
+      "propext"
+    ],
+    "Finset.mul_kneser._simp_1_11": [
+      "propext"
+    ],
+    "Finset.mul_kneser._simp_1_12": [],
+    "Finset.mul_kneser._simp_1_13": [
+      "propext"
+    ],
+    "Finset.mul_kneser._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_3": [
+      "propext"
+    ],
+    "Finset.mul_kneser._simp_1_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_5": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_6": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_8": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_kneser._simp_1_9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_mulStab_mul_mul_mul_mulStab_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_strict_kneser": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_left_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_right_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_right_iff._simp_1_1": [],
+    "Finset.mul_subset_right_iff._simp_1_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_right_iff._simp_1_3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.mul_subset_right_iff._simp_1_4": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.one_mem_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.one_mem_mulStab._simp_2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.pairwiseDisjoint_smul_finset_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.pairwiseDisjoint_smul_finset_mulStab._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.pairwiseDisjoint_vadd_finset_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.preimage_image_quotientMk_addStabilizer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.preimage_image_quotientMk_mulStabilizer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.preimage_image_quotientMk_stabilizer_eq_add_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.preimage_image_quotientMk_stabilizer_eq_mul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.smul_finset_mulStab_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.smul_mulStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subgroup_mul_card_eq_mul_of_mul_stab_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subgroup_mul_card_eq_mul_of_mul_stab_subset._simp_1_1": [
+      "propext"
+    ],
+    "Finset.subset_addStab_add_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subset_addStab_add_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subset_mulStab_mul_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subset_mulStab_mul_left._simp_1_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.subset_mulStab_mul_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.vadd_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.vadd_finset_addStab_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.zero_mem_addStab": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Finset.zero_mem_addStab._simp_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.fintypeImage._proof_1._to_additive_1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OAI.LargePrimeGaps.siegelWalfisz": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OAI.LargePrimeGaps.bombieriVinogradov": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}
